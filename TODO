@@ -1,0 +1,3 @@
+- Verificar que cuando una sesión se extienda más allá de la duración (bien sea del servidor REST o
+del cliente REST) en el momento en que se detecte que hay que refrescar llaves públicas, efectivamente
+se haga.

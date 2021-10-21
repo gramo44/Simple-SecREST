@@ -1,0 +1,1344 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Autenticacion	cliente/lib/autenticacion.php	/^class Autenticacion {$/;"	c
+Autenticacion	lib/autenticacion.php	/^class Autenticacion {$/;"	c
+Autenticacion	servidor/lib/autenticacion.php	/^class Autenticacion {$/;"	c
+M_REST_autenticar	cliente/lib/REST.php	/^    function M_REST_autenticar($request)$/;"	f
+M_REST_autenticar	lib/REST.php	/^    function M_REST_autenticar($request)$/;"	f
+M_REST_autenticar	servidor/lib/REST.php	/^    function M_REST_autenticar($request)$/;"	f
+M_REST_existen_procesos_asociados	cliente/lib/mi_servicio.php	/^    function M_REST_existen_procesos_asociados($request)$/;"	f
+M_REST_existen_procesos_asociados	lib/mi_servicio.php	/^    function M_REST_existen_procesos_asociados($request)$/;"	f
+M_REST_existen_procesos_asociados	servidor/lib/mi_servicio.php	/^    function M_REST_existen_procesos_asociados($request)$/;"	f
+M_REST_saludo	cliente/lib/REST.php	/^    function M_REST_saludo($request)$/;"	f
+M_REST_saludo	lib/REST.php	/^    function M_REST_saludo($request)$/;"	f
+M_REST_saludo	servidor/lib/REST.php	/^    function M_REST_saludo($request)$/;"	f
+M_REST_servicio_2	cliente/lib/mi_servicio.php	/^    \/\/ function M_REST_servicio_2($request)$/;"	f
+M_REST_servicio_2	lib/mi_servicio.php	/^    \/\/ function M_REST_servicio_2($request)$/;"	f
+M_REST_servicio_2	servidor/lib/mi_servicio.php	/^    \/\/ function M_REST_servicio_2($request)$/;"	f
+Mostrar	cliente/cliente.php	/^function Mostrar($dato, $texto = "") {$/;"	f
+Mostrar	servidor/servicio.php	/^function Mostrar($dato, $texto = "") {$/;"	f
+Qbloques	cliente/lib/cifrado_RSA.php	/^        $Qbloques = count($bloques);$/;"	v
+Qbloques	cliente/lib/cifrado_RSA_funciona.php	/^        $Qbloques = count($bloques);$/;"	v
+Qbloques	lib/cifrado_RSA.php	/^        $Qbloques = count($bloques);$/;"	v
+Qbloques	lib/cifrado_RSA_funciona.php	/^        $Qbloques = count($bloques);$/;"	v
+Qbloques	servidor/lib/cifrado_RSA.php	/^        $Qbloques = count($bloques);$/;"	v
+Qbloques	servidor/lib/cifrado_RSA_funciona.php	/^        $Qbloques = count($bloques);$/;"	v
+T_fecha_envio	cliente/lib/REST.php	/^        $T_fecha_envio = new \\DateTime($request['fecha']);$/;"	v
+T_fecha_envio	lib/REST.php	/^        $T_fecha_envio = new \\DateTime($request['fecha']);$/;"	v
+T_fecha_envio	servidor/lib/REST.php	/^        $T_fecha_envio = new \\DateTime($request['fecha']);$/;"	v
+T_fechaserver	cliente/lib/REST.php	/^        $T_fechaserver = new \\DateTime();$/;"	v
+T_fechaserver	lib/REST.php	/^        $T_fechaserver = new \\DateTime();$/;"	v
+T_fechaserver	servidor/lib/REST.php	/^        $T_fechaserver = new \\DateTime();$/;"	v
+__call	cliente/lib/REST.php	/^    public function __call($nombre, $parametros)$/;"	f
+__call	lib/REST.php	/^    public function __call($nombre, $parametros)$/;"	f
+__call	servidor/lib/REST.php	/^    public function __call($nombre, $parametros)$/;"	f
+__callStatic	cliente/lib/REST.php	/^    public static function __callStatic($nombre, $parametros)$/;"	f
+__callStatic	lib/REST.php	/^    public static function __callStatic($nombre, $parametros)$/;"	f
+__callStatic	servidor/lib/REST.php	/^    public static function __callStatic($nombre, $parametros)$/;"	f
+__construct	cliente/lib/REST.php	/^    function __construct($directorio, $sesion = null, $duracion = 300, $depurando = false)$/;"	f
+__construct	cliente/lib/REST.php	/^    function __construct($url, $login, $hclave, $fecha, $directorio, $depurando = false, $duracion = 300)$/;"	f
+__construct	cliente/lib/autenticacion.php	/^    function __construct($tiem_max = 300)$/;"	f
+__construct	cliente/lib/cifrado_RSA.php	/^    function __construct( $duracion = 300, $directorio = null$/;"	f
+__construct	cliente/lib/cifrado_RSA_funciona.php	/^    function __construct($duracion = 300, $directorio = null, $nombre_base = "rsa_key", $tipo_huella = "sha512")$/;"	f
+__construct	lib/REST.php	/^    function __construct($directorio, $sesion = null, $duracion = 300, $depurando = false)$/;"	f
+__construct	lib/REST.php	/^    function __construct($url, $login, $hclave, $fecha, $directorio, $depurando = false, $duracion = 300)$/;"	f
+__construct	lib/autenticacion.php	/^    function __construct($tiem_max = 300)$/;"	f
+__construct	lib/cifrado_RSA.php	/^    function __construct( $duracion = 300, $directorio = null$/;"	f
+__construct	lib/cifrado_RSA_funciona.php	/^    function __construct($duracion = 300, $directorio = null, $nombre_base = "rsa_key", $tipo_huella = "sha512")$/;"	f
+__construct	servidor/lib/REST.php	/^    function __construct($directorio, $sesion = null, $duracion = 300, $depurando = false)$/;"	f
+__construct	servidor/lib/REST.php	/^    function __construct($url, $login, $hclave, $fecha, $directorio, $depurando = false, $duracion = 300)$/;"	f
+__construct	servidor/lib/autenticacion.php	/^    function __construct($tiem_max = 300)$/;"	f
+__construct	servidor/lib/cifrado_RSA.php	/^    function __construct( $duracion = 300, $directorio = null$/;"	f
+__construct	servidor/lib/cifrado_RSA_funciona.php	/^    function __construct($duracion = 300, $directorio = null, $nombre_base = "rsa_key", $tipo_huella = "sha512")$/;"	f
+actualizar_ll_srv	cliente/lib/REST.php	/^    protected function actualizar_ll_srv($url)$/;"	f
+actualizar_ll_srv	lib/REST.php	/^    protected function actualizar_ll_srv($url)$/;"	f
+actualizar_ll_srv	servidor/lib/REST.php	/^    protected function actualizar_ll_srv($url)$/;"	f
+actualizar_llave_publica_de_cliente	cliente/lib/REST.php	/^    protected function actualizar_llave_publica_de_cliente($url)$/;"	f
+actualizar_llave_publica_de_cliente	lib/REST.php	/^    protected function actualizar_llave_publica_de_cliente($url)$/;"	f
+actualizar_llave_publica_de_cliente	servidor/lib/REST.php	/^    protected function actualizar_llave_publica_de_cliente($url)$/;"	f
+agregar	cliente/lib/REST.php	/^            $agregar = false;$/;"	v
+agregar	lib/REST.php	/^            $agregar = false;$/;"	v
+agregar	servidor/lib/REST.php	/^            $agregar = false;$/;"	v
+archivo	cliente/lib/cifrado_RSA.php	/^            $archivo = $this->directorio."\/".$this->nombre_base;$/;"	v
+archivo	cliente/lib/cifrado_RSA_funciona.php	/^            $archivo = $this->directorio."\/".$this->nombre_base;$/;"	v
+archivo	lib/cifrado_RSA.php	/^            $archivo = $this->directorio."\/".$this->nombre_base;$/;"	v
+archivo	lib/cifrado_RSA_funciona.php	/^            $archivo = $this->directorio."\/".$this->nombre_base;$/;"	v
+archivo	servidor/lib/cifrado_RSA.php	/^            $archivo = $this->directorio."\/".$this->nombre_base;$/;"	v
+archivo	servidor/lib/cifrado_RSA_funciona.php	/^            $archivo = $this->directorio."\/".$this->nombre_base;$/;"	v
+arr	cliente/lib/mi_cliente.php	/^            $arr = array();$/;"	v
+arr	lib/mi_cliente.php	/^            $arr = array();$/;"	v
+arr	servidor/lib/mi_cliente.php	/^            $arr = array();$/;"	v
+arreglo	cliente/lib/mi_cliente.php	/^        $arreglo = array();$/;"	v
+arreglo	cliente/lib/mi_servicio.php	/^        $arreglo = array();$/;"	v
+arreglo	lib/mi_cliente.php	/^        $arreglo = array();$/;"	v
+arreglo	lib/mi_servicio.php	/^        $arreglo = array();$/;"	v
+arreglo	servidor/lib/mi_cliente.php	/^        $arreglo = array();$/;"	v
+arreglo	servidor/lib/mi_servicio.php	/^        $arreglo = array();$/;"	v
+asegurar_requerimiento	cliente/lib/REST.php	/^    public function asegurar_requerimiento($arreglo)$/;"	f
+asegurar_requerimiento	lib/REST.php	/^    public function asegurar_requerimiento($arreglo)$/;"	f
+asegurar_requerimiento	servidor/lib/REST.php	/^    public function asegurar_requerimiento($arreglo)$/;"	f
+atender	cliente/lib/REST.php	/^    function atender($request)$/;"	f
+atender	lib/REST.php	/^    function atender($request)$/;"	f
+atender	servidor/lib/REST.php	/^    function atender($request)$/;"	f
+bloque	cliente/lib/cifrado_RSA.php	/^            $bloque = array_shift($bloques);$/;"	v
+bloque	lib/cifrado_RSA.php	/^            $bloque = array_shift($bloques);$/;"	v
+bloque	servidor/lib/cifrado_RSA.php	/^            $bloque = array_shift($bloques);$/;"	v
+bloques	cliente/lib/cifrado_RSA.php	/^            $bloques = preg_split("#_-_SKINA_-_#", base64_decode($mensaje));$/;"	v
+bloques	cliente/lib/cifrado_RSA.php	/^            $bloques = str_split($mensaje, $this->bloques_cifrar);$/;"	v
+bloques	cliente/lib/cifrado_RSA.php	/^            $bloques = str_split(base64_decode($firma), $bloques_descifrar[$tamanho]);$/;"	v
+bloques	cliente/lib/cifrado_RSA.php	/^        $bloques = str_split($mensaje, $bloques_cifrar);$/;"	v
+bloques	cliente/lib/cifrado_RSA_funciona.php	/^            $bloques = preg_split("#_-SKINA-_#", base64_decode($mensaje));$/;"	v
+bloques	cliente/lib/cifrado_RSA_funciona.php	/^            $bloques = str_split($mensaje, $this->bloques_cifrar);$/;"	v
+bloques	cliente/lib/cifrado_RSA_funciona.php	/^            $bloques = str_split(base64_decode($firma), $bloques_descifrar[$tamanho]);$/;"	v
+bloques	cliente/lib/cifrado_RSA_funciona.php	/^        $bloques = str_split($mensaje, $bloques_cifrar);$/;"	v
+bloques	lib/cifrado_RSA.php	/^            $bloques = preg_split("#_-_SKINA_-_#", base64_decode($mensaje));$/;"	v
+bloques	lib/cifrado_RSA.php	/^            $bloques = str_split($mensaje, $this->bloques_cifrar);$/;"	v
+bloques	lib/cifrado_RSA.php	/^            $bloques = str_split(base64_decode($firma), $bloques_descifrar[$tamanho]);$/;"	v
+bloques	lib/cifrado_RSA.php	/^        $bloques = str_split($mensaje, $bloques_cifrar);$/;"	v
+bloques	lib/cifrado_RSA_funciona.php	/^            $bloques = preg_split("#_-SKINA-_#", base64_decode($mensaje));$/;"	v
+bloques	lib/cifrado_RSA_funciona.php	/^            $bloques = str_split($mensaje, $this->bloques_cifrar);$/;"	v
+bloques	lib/cifrado_RSA_funciona.php	/^            $bloques = str_split(base64_decode($firma), $bloques_descifrar[$tamanho]);$/;"	v
+bloques	lib/cifrado_RSA_funciona.php	/^        $bloques = str_split($mensaje, $bloques_cifrar);$/;"	v
+bloques	servidor/lib/cifrado_RSA.php	/^            $bloques = preg_split("#_-_SKINA_-_#", base64_decode($mensaje));$/;"	v
+bloques	servidor/lib/cifrado_RSA.php	/^            $bloques = str_split($mensaje, $this->bloques_cifrar);$/;"	v
+bloques	servidor/lib/cifrado_RSA.php	/^            $bloques = str_split(base64_decode($firma), $bloques_descifrar[$tamanho]);$/;"	v
+bloques	servidor/lib/cifrado_RSA.php	/^        $bloques = str_split($mensaje, $bloques_cifrar);$/;"	v
+bloques	servidor/lib/cifrado_RSA_funciona.php	/^            $bloques = preg_split("#_-SKINA-_#", base64_decode($mensaje));$/;"	v
+bloques	servidor/lib/cifrado_RSA_funciona.php	/^            $bloques = str_split($mensaje, $this->bloques_cifrar);$/;"	v
+bloques	servidor/lib/cifrado_RSA_funciona.php	/^            $bloques = str_split(base64_decode($firma), $bloques_descifrar[$tamanho]);$/;"	v
+bloques	servidor/lib/cifrado_RSA_funciona.php	/^        $bloques = str_split($mensaje, $bloques_cifrar);$/;"	v
+bloques_cifrar	cliente/lib/cifrado_RSA.php	/^        $bloques_cifrar = $tamanho \/ 8 - 11;$/;"	v
+bloques_cifrar	cliente/lib/cifrado_RSA.php	/^    private $bloques_cifrar = 245; \/*!< \\var $tamanho \/ 8 - 11 *\/$/;"	v
+bloques_cifrar	cliente/lib/cifrado_RSA_funciona.php	/^        $bloques_cifrar = $tamanho \/ 8 - 11;$/;"	v
+bloques_cifrar	cliente/lib/cifrado_RSA_funciona.php	/^    private $bloques_cifrar = 245; \/\/ $tamanho \/ 8 - 11$/;"	v
+bloques_cifrar	lib/cifrado_RSA.php	/^        $bloques_cifrar = $tamanho \/ 8 - 11;$/;"	v
+bloques_cifrar	lib/cifrado_RSA.php	/^    private $bloques_cifrar = 245; \/*!< \\var $tamanho \/ 8 - 11 *\/$/;"	v
+bloques_cifrar	lib/cifrado_RSA_funciona.php	/^        $bloques_cifrar = $tamanho \/ 8 - 11;$/;"	v
+bloques_cifrar	lib/cifrado_RSA_funciona.php	/^    private $bloques_cifrar = 245; \/\/ $tamanho \/ 8 - 11$/;"	v
+bloques_cifrar	servidor/lib/cifrado_RSA.php	/^        $bloques_cifrar = $tamanho \/ 8 - 11;$/;"	v
+bloques_cifrar	servidor/lib/cifrado_RSA.php	/^    private $bloques_cifrar = 245; \/*!< \\var $tamanho \/ 8 - 11 *\/$/;"	v
+bloques_cifrar	servidor/lib/cifrado_RSA_funciona.php	/^        $bloques_cifrar = $tamanho \/ 8 - 11;$/;"	v
+bloques_cifrar	servidor/lib/cifrado_RSA_funciona.php	/^    private $bloques_cifrar = 245; \/\/ $tamanho \/ 8 - 11$/;"	v
+bloques_descifrar	cliente/lib/cifrado_RSA.php	/^        $bloques_descifrar = array('1024' => 128$/;"	v
+bloques_descifrar	cliente/lib/cifrado_RSA.php	/^    private $bloques_descifrar = 256; \/*!< \\var 1024 -> 128 *\/$/;"	v
+bloques_descifrar	cliente/lib/cifrado_RSA_funciona.php	/^        $bloques_descifrar = array('1024' => 128$/;"	v
+bloques_descifrar	cliente/lib/cifrado_RSA_funciona.php	/^    private $bloques_descifrar = 256; \/\/ 1024 -> 128$/;"	v
+bloques_descifrar	lib/cifrado_RSA.php	/^        $bloques_descifrar = array('1024' => 128$/;"	v
+bloques_descifrar	lib/cifrado_RSA.php	/^    private $bloques_descifrar = 256; \/*!< \\var 1024 -> 128 *\/$/;"	v
+bloques_descifrar	lib/cifrado_RSA_funciona.php	/^        $bloques_descifrar = array('1024' => 128$/;"	v
+bloques_descifrar	lib/cifrado_RSA_funciona.php	/^    private $bloques_descifrar = 256; \/\/ 1024 -> 128$/;"	v
+bloques_descifrar	servidor/lib/cifrado_RSA.php	/^        $bloques_descifrar = array('1024' => 128$/;"	v
+bloques_descifrar	servidor/lib/cifrado_RSA.php	/^    private $bloques_descifrar = 256; \/*!< \\var 1024 -> 128 *\/$/;"	v
+bloques_descifrar	servidor/lib/cifrado_RSA_funciona.php	/^        $bloques_descifrar = array('1024' => 128$/;"	v
+bloques_descifrar	servidor/lib/cifrado_RSA_funciona.php	/^    private $bloques_descifrar = 256; \/\/ 1024 -> 128$/;"	v
+borrarLlavesViejas	cliente/lib/cifrado_RSA.php	/^    function borrarLlavesViejas()$/;"	f
+borrarLlavesViejas	cliente/lib/cifrado_RSA_funciona.php	/^    function borrarLlavesViejas()$/;"	f
+borrarLlavesViejas	lib/cifrado_RSA.php	/^    function borrarLlavesViejas()$/;"	f
+borrarLlavesViejas	lib/cifrado_RSA_funciona.php	/^    function borrarLlavesViejas()$/;"	f
+borrarLlavesViejas	servidor/lib/cifrado_RSA.php	/^    function borrarLlavesViejas()$/;"	f
+borrarLlavesViejas	servidor/lib/cifrado_RSA_funciona.php	/^    function borrarLlavesViejas()$/;"	f
+canal	cliente/lib/autenticacion.php	/^        $this->canal  = null;$/;"	v
+canal	cliente/lib/autenticacion.php	/^        \/\/ $this->canal  = uniqid();$/;"	v
+canal	cliente/lib/autenticacion.php	/^    private $canal;    \/\/ El canal de comunicación$/;"	v
+canal	lib/autenticacion.php	/^        $this->canal  = null;$/;"	v
+canal	lib/autenticacion.php	/^        \/\/ $this->canal  = uniqid();$/;"	v
+canal	lib/autenticacion.php	/^    private $canal;    \/\/ El canal de comunicación$/;"	v
+canal	servidor/lib/autenticacion.php	/^        $this->canal  = null;$/;"	v
+canal	servidor/lib/autenticacion.php	/^        \/\/ $this->canal  = uniqid();$/;"	v
+canal	servidor/lib/autenticacion.php	/^    private $canal;    \/\/ El canal de comunicación$/;"	v
+cargar_hash_de_clave	cliente/lib/REST.php	/^    public abstract function cargar_hash_de_clave($login);$/;"	f
+cargar_hash_de_clave	cliente/lib/mi_servicio.php	/^    function cargar_hash_de_clave($login) : string$/;"	f
+cargar_hash_de_clave	lib/REST.php	/^    public abstract function cargar_hash_de_clave($login);$/;"	f
+cargar_hash_de_clave	lib/mi_servicio.php	/^    function cargar_hash_de_clave($login) : string$/;"	f
+cargar_hash_de_clave	servidor/lib/REST.php	/^    public abstract function cargar_hash_de_clave($login);$/;"	f
+cargar_hash_de_clave	servidor/lib/mi_servicio.php	/^    function cargar_hash_de_clave($login) : string$/;"	f
+cargar_llave_publica_sesion	cliente/lib/REST.php	/^    public abstract function cargar_llave_publica_sesion($sesion);$/;"	f
+cargar_llave_publica_sesion	cliente/lib/mi_servicio.php	/^    function cargar_llave_publica_sesion($sesion)$/;"	f
+cargar_llave_publica_sesion	lib/REST.php	/^    public abstract function cargar_llave_publica_sesion($sesion);$/;"	f
+cargar_llave_publica_sesion	lib/mi_servicio.php	/^    function cargar_llave_publica_sesion($sesion)$/;"	f
+cargar_llave_publica_sesion	servidor/lib/REST.php	/^    public abstract function cargar_llave_publica_sesion($sesion);$/;"	f
+cargar_llave_publica_sesion	servidor/lib/mi_servicio.php	/^    function cargar_llave_publica_sesion($sesion)$/;"	f
+cargar_llaves_RSA	cliente/lib/autenticacion.php	/^    function cargar_llaves_RSA($directorio, $nombre_base, $timeout = 300)$/;"	f
+cargar_llaves_RSA	cliente/lib/cifrado_RSA.php	/^    function cargar_llaves_RSA()$/;"	f
+cargar_llaves_RSA	lib/autenticacion.php	/^    function cargar_llaves_RSA($directorio, $nombre_base, $timeout = 300)$/;"	f
+cargar_llaves_RSA	lib/cifrado_RSA.php	/^    function cargar_llaves_RSA()$/;"	f
+cargar_llaves_RSA	servidor/lib/autenticacion.php	/^    function cargar_llaves_RSA($directorio, $nombre_base, $timeout = 300)$/;"	f
+cargar_llaves_RSA	servidor/lib/cifrado_RSA.php	/^    function cargar_llaves_RSA()$/;"	f
+cargar_sesion_servicio	cliente/lib/REST.php	/^    abstract protected function cargar_sesion_servicio($url);$/;"	f
+cargar_sesion_servicio	cliente/lib/mi_cliente.php	/^    public function cargar_sesion_servicio($url)$/;"	f
+cargar_sesion_servicio	lib/REST.php	/^    abstract protected function cargar_sesion_servicio($url);$/;"	f
+cargar_sesion_servicio	lib/mi_cliente.php	/^    public function cargar_sesion_servicio($url)$/;"	f
+cargar_sesion_servicio	servidor/lib/REST.php	/^    abstract protected function cargar_sesion_servicio($url);$/;"	f
+cargar_sesion_servicio	servidor/lib/mi_cliente.php	/^    public function cargar_sesion_servicio($url)$/;"	f
+cifrado	cliente/lib/cifrado_RSA.php	/^            $cifrado = base64_encode($cifrado);$/;"	v
+cifrado	cliente/lib/cifrado_RSA.php	/^            $cifrado = null;$/;"	v
+cifrado	cliente/lib/cifrado_RSA.php	/^        $cifrado = "";$/;"	v
+cifrado	cliente/lib/cifrado_RSA_funciona.php	/^            $cifrado = base64_encode($cifrado);$/;"	v
+cifrado	cliente/lib/cifrado_RSA_funciona.php	/^            $cifrado = null;$/;"	v
+cifrado	cliente/lib/cifrado_RSA_funciona.php	/^        $cifrado = "";$/;"	v
+cifrado	lib/cifrado_RSA.php	/^            $cifrado = base64_encode($cifrado);$/;"	v
+cifrado	lib/cifrado_RSA.php	/^            $cifrado = null;$/;"	v
+cifrado	lib/cifrado_RSA.php	/^        $cifrado = "";$/;"	v
+cifrado	lib/cifrado_RSA_funciona.php	/^            $cifrado = base64_encode($cifrado);$/;"	v
+cifrado	lib/cifrado_RSA_funciona.php	/^            $cifrado = null;$/;"	v
+cifrado	lib/cifrado_RSA_funciona.php	/^        $cifrado = "";$/;"	v
+cifrado	servidor/lib/cifrado_RSA.php	/^            $cifrado = base64_encode($cifrado);$/;"	v
+cifrado	servidor/lib/cifrado_RSA.php	/^            $cifrado = null;$/;"	v
+cifrado	servidor/lib/cifrado_RSA.php	/^        $cifrado = "";$/;"	v
+cifrado	servidor/lib/cifrado_RSA_funciona.php	/^            $cifrado = base64_encode($cifrado);$/;"	v
+cifrado	servidor/lib/cifrado_RSA_funciona.php	/^            $cifrado = null;$/;"	v
+cifrado	servidor/lib/cifrado_RSA_funciona.php	/^        $cifrado = "";$/;"	v
+cifrar	cliente/lib/cifrado_RSA.php	/^    public static function cifrar($mensaje, $ll_publica, $tamanho = 2048)$/;"	f
+cifrar	cliente/lib/cifrado_RSA_funciona.php	/^    public static function cifrar($mensaje, $ll_publica, $tamanho = 2048)$/;"	f
+cifrar	lib/cifrado_RSA.php	/^    public static function cifrar($mensaje, $ll_publica, $tamanho = 2048)$/;"	f
+cifrar	lib/cifrado_RSA_funciona.php	/^    public static function cifrar($mensaje, $ll_publica, $tamanho = 2048)$/;"	f
+cifrar	servidor/lib/cifrado_RSA.php	/^    public static function cifrar($mensaje, $ll_publica, $tamanho = 2048)$/;"	f
+cifrar	servidor/lib/cifrado_RSA_funciona.php	/^    public static function cifrar($mensaje, $ll_publica, $tamanho = 2048)$/;"	f
+clave	cliente/cliente.php	/^$clave = hash('sha512', '3uv5nqc!"');$/;"	v
+clave	cliente/lib/autenticacion.php	/^        $this->clave  = "";$/;"	v
+clave	cliente/lib/autenticacion.php	/^    public  $clave;    \/\/ La clave$/;"	v
+clave	lib/autenticacion.php	/^        $this->clave  = "";$/;"	v
+clave	lib/autenticacion.php	/^    public  $clave;    \/\/ La clave$/;"	v
+clave	servidor/lib/autenticacion.php	/^        $this->clave  = "";$/;"	v
+clave	servidor/lib/autenticacion.php	/^    public  $clave;    \/\/ La clave$/;"	v
+cliente	cliente/cliente.php	/^$cliente = new mi_cliente($url, $login, $clave, $fecha, __DIR__, $depurando);$/;"	v
+cliente	cliente/cliente.php	/^\/\/ $cliente = new mi_cliente($url, $login, $clave, $fecha, __DIR__, 10);$/;"	v
+clienteREST	cliente/lib/REST.php	/^abstract class clienteREST extends conexionREST {$/;"	c
+clienteREST	lib/REST.php	/^abstract class clienteREST extends conexionREST {$/;"	c
+clienteREST	servidor/lib/REST.php	/^abstract class clienteREST extends conexionREST {$/;"	c
+codificador	cliente/lib/cifrado_RSA.php	/^class codificador {$/;"	c
+codificador	cliente/lib/cifrado_RSA_funciona.php	/^class codificador {$/;"	c
+codificador	lib/cifrado_RSA.php	/^class codificador {$/;"	c
+codificador	lib/cifrado_RSA_funciona.php	/^class codificador {$/;"	c
+codificador	servidor/lib/cifrado_RSA.php	/^class codificador {$/;"	c
+codificador	servidor/lib/cifrado_RSA_funciona.php	/^class codificador {$/;"	c
+codifico	cliente/lib/cifrado_RSA.php	/^                $codifico = false;$/;"	v
+codifico	cliente/lib/cifrado_RSA.php	/^        $codifico = true;$/;"	v
+codifico	cliente/lib/cifrado_RSA_funciona.php	/^                $codifico = false;$/;"	v
+codifico	cliente/lib/cifrado_RSA_funciona.php	/^        $codifico = true;$/;"	v
+codifico	lib/cifrado_RSA.php	/^                $codifico = false;$/;"	v
+codifico	lib/cifrado_RSA.php	/^        $codifico = true;$/;"	v
+codifico	lib/cifrado_RSA_funciona.php	/^                $codifico = false;$/;"	v
+codifico	lib/cifrado_RSA_funciona.php	/^        $codifico = true;$/;"	v
+codifico	servidor/lib/cifrado_RSA.php	/^                $codifico = false;$/;"	v
+codifico	servidor/lib/cifrado_RSA.php	/^        $codifico = true;$/;"	v
+codifico	servidor/lib/cifrado_RSA_funciona.php	/^                $codifico = false;$/;"	v
+codifico	servidor/lib/cifrado_RSA_funciona.php	/^        $codifico = true;$/;"	v
+con_huella	cliente/lib/cifrado_RSA_funciona.php	/^    function firmar($mensaje, $con_huella = true)$/;"	v
+con_huella	lib/cifrado_RSA_funciona.php	/^    function firmar($mensaje, $con_huella = true)$/;"	v
+con_huella	servidor/lib/cifrado_RSA_funciona.php	/^    function firmar($mensaje, $con_huella = true)$/;"	v
+conexionREST	cliente/lib/REST.php	/^class conexionREST {$/;"	c
+conexionREST	lib/REST.php	/^class conexionREST {$/;"	c
+conexionREST	servidor/lib/REST.php	/^class conexionREST {$/;"	c
+config	cliente/lib/autenticacion.php	/^        $config = array( "private_key_bits" => 512$/;"	v
+config	cliente/lib/cifrado_RSA.php	/^        $config = array( "private_key_bits" => $this->tamanho$/;"	v
+config	cliente/lib/cifrado_RSA_funciona.php	/^        $config = array( "private_key_bits" => $this->tamanho$/;"	v
+config	lib/autenticacion.php	/^        $config = array( "private_key_bits" => 512$/;"	v
+config	lib/cifrado_RSA.php	/^        $config = array( "private_key_bits" => $this->tamanho$/;"	v
+config	lib/cifrado_RSA_funciona.php	/^        $config = array( "private_key_bits" => $this->tamanho$/;"	v
+config	servidor/lib/autenticacion.php	/^        $config = array( "private_key_bits" => 512$/;"	v
+config	servidor/lib/cifrado_RSA.php	/^        $config = array( "private_key_bits" => $this->tamanho$/;"	v
+config	servidor/lib/cifrado_RSA_funciona.php	/^        $config = array( "private_key_bits" => $this->tamanho$/;"	v
+crear_llaves_RSA	cliente/lib/autenticacion.php	/^    function crear_llaves_RSA($ruta_base)$/;"	f
+crear_llaves_RSA	cliente/lib/cifrado_RSA.php	/^    final protected function crear_llaves_RSA()$/;"	f
+crear_llaves_RSA	cliente/lib/cifrado_RSA_funciona.php	/^    final protected function crear_llaves_RSA()$/;"	f
+crear_llaves_RSA	lib/autenticacion.php	/^    function crear_llaves_RSA($ruta_base)$/;"	f
+crear_llaves_RSA	lib/cifrado_RSA.php	/^    final protected function crear_llaves_RSA()$/;"	f
+crear_llaves_RSA	lib/cifrado_RSA_funciona.php	/^    final protected function crear_llaves_RSA()$/;"	f
+crear_llaves_RSA	servidor/lib/autenticacion.php	/^    function crear_llaves_RSA($ruta_base)$/;"	f
+crear_llaves_RSA	servidor/lib/cifrado_RSA.php	/^    final protected function crear_llaves_RSA()$/;"	f
+crear_llaves_RSA	servidor/lib/cifrado_RSA_funciona.php	/^    final protected function crear_llaves_RSA()$/;"	f
+datos	cliente/lib/REST.php	/^            $datos = "&datos=".urlencode(RSA::cifrar(json_encode($datos), $this->ll_srv));$/;"	v
+datos	cliente/lib/REST.php	/^            $datos = "?metodo=saludo&ll_publica_cliente=".urlencode($this->rsa->get_ll_publica());$/;"	v
+datos	cliente/lib/REST.php	/^            $datos = array( 'login'  => $this->login$/;"	v
+datos	cliente/lib/REST.php	/^        $datos = "&datos=".urlencode($datos);$/;"	v
+datos	cliente/lib/REST.php	/^        $datos = "&datos=".urlencode(RSA::cifrar(json_encode($datos), $this->ll_srv));$/;"	v
+datos	cliente/lib/REST.php	/^        $datos = "?metodo=actualizar_llave_publica_de_cliente";$/;"	v
+datos	cliente/lib/REST.php	/^        $datos = RSA::cifrar(json_encode($parametros), $this->ll_srv);$/;"	v
+datos	cliente/lib/REST.php	/^        $datos = array( 'sesion'       => $this->sesion$/;"	v
+datos	lib/REST.php	/^            $datos = "&datos=".urlencode(RSA::cifrar(json_encode($datos), $this->ll_srv));$/;"	v
+datos	lib/REST.php	/^            $datos = "?metodo=saludo&ll_publica_cliente=".urlencode($this->rsa->get_ll_publica());$/;"	v
+datos	lib/REST.php	/^            $datos = array( 'login'  => $this->login$/;"	v
+datos	lib/REST.php	/^        $datos = "&datos=".urlencode($datos);$/;"	v
+datos	lib/REST.php	/^        $datos = "&datos=".urlencode(RSA::cifrar(json_encode($datos), $this->ll_srv));$/;"	v
+datos	lib/REST.php	/^        $datos = "?metodo=actualizar_llave_publica_de_cliente";$/;"	v
+datos	lib/REST.php	/^        $datos = RSA::cifrar(json_encode($parametros), $this->ll_srv);$/;"	v
+datos	lib/REST.php	/^        $datos = array( 'sesion'       => $this->sesion$/;"	v
+datos	servidor/lib/REST.php	/^            $datos = "&datos=".urlencode(RSA::cifrar(json_encode($datos), $this->ll_srv));$/;"	v
+datos	servidor/lib/REST.php	/^            $datos = "?metodo=saludo&ll_publica_cliente=".urlencode($this->rsa->get_ll_publica());$/;"	v
+datos	servidor/lib/REST.php	/^            $datos = array( 'login'  => $this->login$/;"	v
+datos	servidor/lib/REST.php	/^        $datos = "&datos=".urlencode($datos);$/;"	v
+datos	servidor/lib/REST.php	/^        $datos = "&datos=".urlencode(RSA::cifrar(json_encode($datos), $this->ll_srv));$/;"	v
+datos	servidor/lib/REST.php	/^        $datos = "?metodo=actualizar_llave_publica_de_cliente";$/;"	v
+datos	servidor/lib/REST.php	/^        $datos = RSA::cifrar(json_encode($parametros), $this->ll_srv);$/;"	v
+datos	servidor/lib/REST.php	/^        $datos = array( 'sesion'       => $this->sesion$/;"	v
+days	cliente/lib/REST.php	/^            $days = $intervalo->format('%a');$/;"	v
+days	lib/REST.php	/^            $days = $intervalo->format('%a');$/;"	v
+days	servidor/lib/REST.php	/^            $days = $intervalo->format('%a');$/;"	v
+demora	cliente/lib/REST.php	/^        $demora = periodo2unidades($T_fecha_envio->diff($T_fechaserver), "seconds");$/;"	v
+demora	lib/REST.php	/^        $demora = periodo2unidades($T_fecha_envio->diff($T_fechaserver), "seconds");$/;"	v
+demora	servidor/lib/REST.php	/^        $demora = periodo2unidades($T_fecha_envio->diff($T_fechaserver), "seconds");$/;"	v
+depurando	cliente/cliente.php	/^$depurando = true;$/;"	v
+depurando	cliente/lib/REST.php	/^            $this->depurando = $depurando;$/;"	v
+depurando	cliente/lib/REST.php	/^        if ($depurando == false || $depurando == true)$/;"	v
+depurando	cliente/lib/REST.php	/^    function __construct($url, $login, $hclave, $fecha, $directorio, $depurando = false, $duracion = 300)$/;"	v
+depurando	cliente/lib/REST.php	/^    private $depurando;  \/\/!< Indica si se permite mostrar letreros de depuración$/;"	v
+depurando	cliente/lib/cifrado_RSA.php	/^            $this->depurando = $depurando;$/;"	v
+depurando	cliente/lib/cifrado_RSA.php	/^        if ($depurando == false || $depurando == true)$/;"	v
+depurando	cliente/lib/cifrado_RSA.php	/^    private $depurando = false; \/*!< Indica si se permite mostrar letreros de depuración *\/$/;"	v
+depurando	lib/REST.php	/^            $this->depurando = $depurando;$/;"	v
+depurando	lib/REST.php	/^        if ($depurando == false || $depurando == true)$/;"	v
+depurando	lib/REST.php	/^    function __construct($url, $login, $hclave, $fecha, $directorio, $depurando = false, $duracion = 300)$/;"	v
+depurando	lib/REST.php	/^    private $depurando;  \/\/!< Indica si se permite mostrar letreros de depuración$/;"	v
+depurando	lib/cifrado_RSA.php	/^            $this->depurando = $depurando;$/;"	v
+depurando	lib/cifrado_RSA.php	/^        if ($depurando == false || $depurando == true)$/;"	v
+depurando	lib/cifrado_RSA.php	/^    private $depurando = false; \/*!< Indica si se permite mostrar letreros de depuración *\/$/;"	v
+depurando	servidor/lib/REST.php	/^            $this->depurando = $depurando;$/;"	v
+depurando	servidor/lib/REST.php	/^        if ($depurando == false || $depurando == true)$/;"	v
+depurando	servidor/lib/REST.php	/^    function __construct($url, $login, $hclave, $fecha, $directorio, $depurando = false, $duracion = 300)$/;"	v
+depurando	servidor/lib/REST.php	/^    private $depurando;  \/\/!< Indica si se permite mostrar letreros de depuración$/;"	v
+depurando	servidor/lib/cifrado_RSA.php	/^            $this->depurando = $depurando;$/;"	v
+depurando	servidor/lib/cifrado_RSA.php	/^        if ($depurando == false || $depurando == true)$/;"	v
+depurando	servidor/lib/cifrado_RSA.php	/^    private $depurando = false; \/*!< Indica si se permite mostrar letreros de depuración *\/$/;"	v
+depurando	servidor/servicio.php	/^$depurando = false;$/;"	v
+descifrado	cliente/lib/cifrado_RSA.php	/^                $descifrado = $parcial;$/;"	v
+descifrado	cliente/lib/cifrado_RSA.php	/^            $descifrado = '';$/;"	v
+descifrado	cliente/lib/cifrado_RSA.php	/^            $descifrado = base64_decode($descifrado);$/;"	v
+descifrado	cliente/lib/cifrado_RSA.php	/^        $descifrado = null;$/;"	v
+descifrado	cliente/lib/cifrado_RSA_funciona.php	/^            $descifrado = '';$/;"	v
+descifrado	cliente/lib/cifrado_RSA_funciona.php	/^            $descifrado = base64_decode($descifrado);$/;"	v
+descifrado	cliente/lib/cifrado_RSA_funciona.php	/^        $descifrado = null;$/;"	v
+descifrado	lib/cifrado_RSA.php	/^                $descifrado = $parcial;$/;"	v
+descifrado	lib/cifrado_RSA.php	/^            $descifrado = '';$/;"	v
+descifrado	lib/cifrado_RSA.php	/^            $descifrado = base64_decode($descifrado);$/;"	v
+descifrado	lib/cifrado_RSA.php	/^        $descifrado = null;$/;"	v
+descifrado	lib/cifrado_RSA_funciona.php	/^            $descifrado = '';$/;"	v
+descifrado	lib/cifrado_RSA_funciona.php	/^            $descifrado = base64_decode($descifrado);$/;"	v
+descifrado	lib/cifrado_RSA_funciona.php	/^        $descifrado = null;$/;"	v
+descifrado	servidor/lib/cifrado_RSA.php	/^                $descifrado = $parcial;$/;"	v
+descifrado	servidor/lib/cifrado_RSA.php	/^            $descifrado = '';$/;"	v
+descifrado	servidor/lib/cifrado_RSA.php	/^            $descifrado = base64_decode($descifrado);$/;"	v
+descifrado	servidor/lib/cifrado_RSA.php	/^        $descifrado = null;$/;"	v
+descifrado	servidor/lib/cifrado_RSA_funciona.php	/^            $descifrado = '';$/;"	v
+descifrado	servidor/lib/cifrado_RSA_funciona.php	/^            $descifrado = base64_decode($descifrado);$/;"	v
+descifrado	servidor/lib/cifrado_RSA_funciona.php	/^        $descifrado = null;$/;"	v
+descifrar	cliente/lib/cifrado_RSA.php	/^    function descifrar($mensaje)$/;"	f
+descifrar	cliente/lib/cifrado_RSA_funciona.php	/^    function descifrar($mensaje)$/;"	f
+descifrar	lib/cifrado_RSA.php	/^    function descifrar($mensaje)$/;"	f
+descifrar	lib/cifrado_RSA_funciona.php	/^    function descifrar($mensaje)$/;"	f
+descifrar	servidor/lib/cifrado_RSA.php	/^    function descifrar($mensaje)$/;"	f
+descifrar	servidor/lib/cifrado_RSA_funciona.php	/^    function descifrar($mensaje)$/;"	f
+dir_llaves	cliente/lib/autenticacion.php	/^        $dir_llaves = __DIR__."\/PRVDATA\/llaves_privadas\/";$/;"	v
+dir_llaves	lib/autenticacion.php	/^        $dir_llaves = __DIR__."\/PRVDATA\/llaves_privadas\/";$/;"	v
+dir_llaves	servidor/lib/autenticacion.php	/^        $dir_llaves = __DIR__."\/PRVDATA\/llaves_privadas\/";$/;"	v
+directorio	cliente/lib/REST.php	/^            $this->directorio = $directorio;$/;"	v
+directorio	cliente/lib/REST.php	/^    private $directorio; \/\/!< Directorio con permisos de lecto-escritura donde se$/;"	v
+directorio	cliente/lib/REST.php	/^    public  $directorio;   \/\/!< Directorio con permisos de lecto-escritura donde se$/;"	v
+directorio	cliente/lib/cifrado_RSA.php	/^                $this->directorio = realpath($directorio);$/;"	v
+directorio	cliente/lib/cifrado_RSA.php	/^            $directorio = $this->directorio;$/;"	v
+directorio	cliente/lib/cifrado_RSA.php	/^        $directorio = $this->directorio;$/;"	v
+directorio	cliente/lib/cifrado_RSA.php	/^        $this->directorio = null;$/;"	v
+directorio	cliente/lib/cifrado_RSA.php	/^    private $directorio; \/*!< \\var El directorio donde se almacenarán las llaves. *\/$/;"	v
+directorio	cliente/lib/cifrado_RSA_funciona.php	/^                $this->directorio = realpath($directorio);$/;"	v
+directorio	cliente/lib/cifrado_RSA_funciona.php	/^            $directorio = $this->directorio;$/;"	v
+directorio	cliente/lib/cifrado_RSA_funciona.php	/^        $directorio = $this->directorio;$/;"	v
+directorio	cliente/lib/cifrado_RSA_funciona.php	/^        $this->directorio = null;$/;"	v
+directorio	cliente/lib/cifrado_RSA_funciona.php	/^    function __construct($duracion = 300, $directorio = null, $nombre_base = "rsa_key", $tipo_huella = "sha512")$/;"	v
+directorio	cliente/lib/cifrado_RSA_funciona.php	/^    private $directorio; \/\/ El directorio donde se almacenarán las llaves.$/;"	v
+directorio	cliente/lib/mi_cliente.php	/^        $directorio = $this->get_directorio();$/;"	v
+directorio	cliente/lib/mi_servicio.php	/^        $directorio = $this->directorio;$/;"	v
+directorio	lib/REST.php	/^            $this->directorio = $directorio;$/;"	v
+directorio	lib/REST.php	/^    private $directorio; \/\/!< Directorio con permisos de lecto-escritura donde se$/;"	v
+directorio	lib/REST.php	/^    public  $directorio;   \/\/!< Directorio con permisos de lecto-escritura donde se$/;"	v
+directorio	lib/cifrado_RSA.php	/^                $this->directorio = realpath($directorio);$/;"	v
+directorio	lib/cifrado_RSA.php	/^            $directorio = $this->directorio;$/;"	v
+directorio	lib/cifrado_RSA.php	/^        $directorio = $this->directorio;$/;"	v
+directorio	lib/cifrado_RSA.php	/^        $this->directorio = null;$/;"	v
+directorio	lib/cifrado_RSA.php	/^    private $directorio; \/*!< \\var El directorio donde se almacenarán las llaves. *\/$/;"	v
+directorio	lib/cifrado_RSA_funciona.php	/^                $this->directorio = realpath($directorio);$/;"	v
+directorio	lib/cifrado_RSA_funciona.php	/^            $directorio = $this->directorio;$/;"	v
+directorio	lib/cifrado_RSA_funciona.php	/^        $directorio = $this->directorio;$/;"	v
+directorio	lib/cifrado_RSA_funciona.php	/^        $this->directorio = null;$/;"	v
+directorio	lib/cifrado_RSA_funciona.php	/^    function __construct($duracion = 300, $directorio = null, $nombre_base = "rsa_key", $tipo_huella = "sha512")$/;"	v
+directorio	lib/cifrado_RSA_funciona.php	/^    private $directorio; \/\/ El directorio donde se almacenarán las llaves.$/;"	v
+directorio	lib/mi_cliente.php	/^        $directorio = $this->get_directorio();$/;"	v
+directorio	lib/mi_servicio.php	/^        $directorio = $this->directorio;$/;"	v
+directorio	servidor/lib/REST.php	/^            $this->directorio = $directorio;$/;"	v
+directorio	servidor/lib/REST.php	/^    private $directorio; \/\/!< Directorio con permisos de lecto-escritura donde se$/;"	v
+directorio	servidor/lib/REST.php	/^    public  $directorio;   \/\/!< Directorio con permisos de lecto-escritura donde se$/;"	v
+directorio	servidor/lib/cifrado_RSA.php	/^                $this->directorio = realpath($directorio);$/;"	v
+directorio	servidor/lib/cifrado_RSA.php	/^            $directorio = $this->directorio;$/;"	v
+directorio	servidor/lib/cifrado_RSA.php	/^        $directorio = $this->directorio;$/;"	v
+directorio	servidor/lib/cifrado_RSA.php	/^        $this->directorio = null;$/;"	v
+directorio	servidor/lib/cifrado_RSA.php	/^    private $directorio; \/*!< \\var El directorio donde se almacenarán las llaves. *\/$/;"	v
+directorio	servidor/lib/cifrado_RSA_funciona.php	/^                $this->directorio = realpath($directorio);$/;"	v
+directorio	servidor/lib/cifrado_RSA_funciona.php	/^            $directorio = $this->directorio;$/;"	v
+directorio	servidor/lib/cifrado_RSA_funciona.php	/^        $directorio = $this->directorio;$/;"	v
+directorio	servidor/lib/cifrado_RSA_funciona.php	/^        $this->directorio = null;$/;"	v
+directorio	servidor/lib/cifrado_RSA_funciona.php	/^    function __construct($duracion = 300, $directorio = null, $nombre_base = "rsa_key", $tipo_huella = "sha512")$/;"	v
+directorio	servidor/lib/cifrado_RSA_funciona.php	/^    private $directorio; \/\/ El directorio donde se almacenarán las llaves.$/;"	v
+directorio	servidor/lib/mi_cliente.php	/^        $directorio = $this->get_directorio();$/;"	v
+directorio	servidor/lib/mi_servicio.php	/^        $directorio = $this->directorio;$/;"	v
+duracion	cliente/lib/autenticacion.php	/^        $this->duracion = $tiem_max;$/;"	v
+duracion	cliente/lib/autenticacion.php	/^    public  $duracion; \/\/ La duración máxima de las llaves pública y privada$/;"	v
+duracion	cliente/lib/cifrado_RSA.php	/^            $this->duracion = $duracion;$/;"	v
+duracion	cliente/lib/cifrado_RSA.php	/^            $this->duracion = 300;$/;"	v
+duracion	cliente/lib/cifrado_RSA.php	/^    function __construct( $duracion = 300, $directorio = null$/;"	v
+duracion	cliente/lib/cifrado_RSA.php	/^    private $duracion; \/*!< \\var La duración máxima de las llaves pública y privada *\/$/;"	v
+duracion	cliente/lib/cifrado_RSA_funciona.php	/^            $this->duracion = $duracion;$/;"	v
+duracion	cliente/lib/cifrado_RSA_funciona.php	/^            $this->duracion = 300;$/;"	v
+duracion	cliente/lib/cifrado_RSA_funciona.php	/^    private $duracion; \/\/ La duración máxima de las llaves pública y privada$/;"	v
+duracion	lib/autenticacion.php	/^        $this->duracion = $tiem_max;$/;"	v
+duracion	lib/autenticacion.php	/^    public  $duracion; \/\/ La duración máxima de las llaves pública y privada$/;"	v
+duracion	lib/cifrado_RSA.php	/^            $this->duracion = $duracion;$/;"	v
+duracion	lib/cifrado_RSA.php	/^            $this->duracion = 300;$/;"	v
+duracion	lib/cifrado_RSA.php	/^    function __construct( $duracion = 300, $directorio = null$/;"	v
+duracion	lib/cifrado_RSA.php	/^    private $duracion; \/*!< \\var La duración máxima de las llaves pública y privada *\/$/;"	v
+duracion	lib/cifrado_RSA_funciona.php	/^            $this->duracion = $duracion;$/;"	v
+duracion	lib/cifrado_RSA_funciona.php	/^            $this->duracion = 300;$/;"	v
+duracion	lib/cifrado_RSA_funciona.php	/^    private $duracion; \/\/ La duración máxima de las llaves pública y privada$/;"	v
+duracion	servidor/lib/autenticacion.php	/^        $this->duracion = $tiem_max;$/;"	v
+duracion	servidor/lib/autenticacion.php	/^    public  $duracion; \/\/ La duración máxima de las llaves pública y privada$/;"	v
+duracion	servidor/lib/cifrado_RSA.php	/^            $this->duracion = $duracion;$/;"	v
+duracion	servidor/lib/cifrado_RSA.php	/^            $this->duracion = 300;$/;"	v
+duracion	servidor/lib/cifrado_RSA.php	/^    function __construct( $duracion = 300, $directorio = null$/;"	v
+duracion	servidor/lib/cifrado_RSA.php	/^    private $duracion; \/*!< \\var La duración máxima de las llaves pública y privada *\/$/;"	v
+duracion	servidor/lib/cifrado_RSA_funciona.php	/^            $this->duracion = $duracion;$/;"	v
+duracion	servidor/lib/cifrado_RSA_funciona.php	/^            $this->duracion = 300;$/;"	v
+duracion	servidor/lib/cifrado_RSA_funciona.php	/^    private $duracion; \/\/ La duración máxima de las llaves pública y privada$/;"	v
+error	cliente/lib/REST.php	/^            $error = "$directorio\/prv no es un directorio.\\n";$/;"	v
+error	cliente/lib/REST.php	/^            $error = "$directorio\/prv no tiene permisos de escritura.\\n";$/;"	v
+error	cliente/lib/REST.php	/^            $error = "$duracion debe ser un número entero";$/;"	v
+error	cliente/lib/REST.php	/^            $error = "$duracion debe ser un número positivo";$/;"	v
+error	cliente/lib/REST.php	/^        $error = "";$/;"	v
+error	lib/REST.php	/^            $error = "$directorio\/prv no es un directorio.\\n";$/;"	v
+error	lib/REST.php	/^            $error = "$directorio\/prv no tiene permisos de escritura.\\n";$/;"	v
+error	lib/REST.php	/^            $error = "$duracion debe ser un número entero";$/;"	v
+error	lib/REST.php	/^            $error = "$duracion debe ser un número positivo";$/;"	v
+error	lib/REST.php	/^        $error = "";$/;"	v
+error	servidor/lib/REST.php	/^            $error = "$directorio\/prv no es un directorio.\\n";$/;"	v
+error	servidor/lib/REST.php	/^            $error = "$directorio\/prv no tiene permisos de escritura.\\n";$/;"	v
+error	servidor/lib/REST.php	/^            $error = "$duracion debe ser un número entero";$/;"	v
+error	servidor/lib/REST.php	/^            $error = "$duracion debe ser un número positivo";$/;"	v
+error	servidor/lib/REST.php	/^        $error = "";$/;"	v
+establecer_lista_blanca	cliente/lib/REST.php	/^    function establecer_lista_blanca($lista_blanca)$/;"	f
+establecer_lista_blanca	lib/REST.php	/^    function establecer_lista_blanca($lista_blanca)$/;"	f
+establecer_lista_blanca	servidor/lib/REST.php	/^    function establecer_lista_blanca($lista_blanca)$/;"	f
+estado	cliente/lib/REST.php	/^                $this->estado = true;$/;"	v
+estado	cliente/lib/REST.php	/^        $this->estado  = false;$/;"	v
+estado	cliente/lib/REST.php	/^    private $estado;     \/\/!< True: autenticado; False: no autenticado.$/;"	v
+estado	cliente/lib/autenticacion.php	/^        $this->estado = false;$/;"	v
+estado	cliente/lib/autenticacion.php	/^        \/\/ $this->estado = (true o false según la confirmación);$/;"	v
+estado	cliente/lib/autenticacion.php	/^    private $estado;   \/\/ True: autenticado; False: no autenticado$/;"	v
+estado	lib/REST.php	/^                $this->estado = true;$/;"	v
+estado	lib/REST.php	/^        $this->estado  = false;$/;"	v
+estado	lib/REST.php	/^    private $estado;     \/\/!< True: autenticado; False: no autenticado.$/;"	v
+estado	lib/autenticacion.php	/^        $this->estado = false;$/;"	v
+estado	lib/autenticacion.php	/^        \/\/ $this->estado = (true o false según la confirmación);$/;"	v
+estado	lib/autenticacion.php	/^    private $estado;   \/\/ True: autenticado; False: no autenticado$/;"	v
+estado	servidor/lib/REST.php	/^                $this->estado = true;$/;"	v
+estado	servidor/lib/REST.php	/^        $this->estado  = false;$/;"	v
+estado	servidor/lib/REST.php	/^    private $estado;     \/\/!< True: autenticado; False: no autenticado.$/;"	v
+estado	servidor/lib/autenticacion.php	/^        $this->estado = false;$/;"	v
+estado	servidor/lib/autenticacion.php	/^        \/\/ $this->estado = (true o false según la confirmación);$/;"	v
+estado	servidor/lib/autenticacion.php	/^    private $estado;   \/\/ True: autenticado; False: no autenticado$/;"	v
+fecha	cliente/cliente.php	/^$fecha = date("Y-m-d H:i:s");$/;"	v
+fecha	cliente/lib/REST.php	/^            $this->fecha = $fecha;$/;"	v
+fecha	cliente/lib/REST.php	/^    public  $fecha;      \/\/!< Fecha y hora del momento en que se estableció la conexión$/;"	v
+fecha	lib/REST.php	/^            $this->fecha = $fecha;$/;"	v
+fecha	lib/REST.php	/^    public  $fecha;      \/\/!< Fecha y hora del momento en que se estableció la conexión$/;"	v
+fecha	servidor/lib/REST.php	/^            $this->fecha = $fecha;$/;"	v
+fecha	servidor/lib/REST.php	/^    public  $fecha;      \/\/!< Fecha y hora del momento en que se estableció la conexión$/;"	v
+firma	cliente/lib/cifrado_RSA.php	/^                $firma = base64_encode($firma);$/;"	v
+firma	cliente/lib/cifrado_RSA.php	/^                $firma = null;$/;"	v
+firma	cliente/lib/cifrado_RSA.php	/^            $firma = '';$/;"	v
+firma	cliente/lib/cifrado_RSA_funciona.php	/^                $firma = base64_encode($firma);$/;"	v
+firma	cliente/lib/cifrado_RSA_funciona.php	/^                $firma = null;$/;"	v
+firma	cliente/lib/cifrado_RSA_funciona.php	/^            $firma = '';$/;"	v
+firma	lib/cifrado_RSA.php	/^                $firma = base64_encode($firma);$/;"	v
+firma	lib/cifrado_RSA.php	/^                $firma = null;$/;"	v
+firma	lib/cifrado_RSA.php	/^            $firma = '';$/;"	v
+firma	lib/cifrado_RSA_funciona.php	/^                $firma = base64_encode($firma);$/;"	v
+firma	lib/cifrado_RSA_funciona.php	/^                $firma = null;$/;"	v
+firma	lib/cifrado_RSA_funciona.php	/^            $firma = '';$/;"	v
+firma	servidor/lib/cifrado_RSA.php	/^                $firma = base64_encode($firma);$/;"	v
+firma	servidor/lib/cifrado_RSA.php	/^                $firma = null;$/;"	v
+firma	servidor/lib/cifrado_RSA.php	/^            $firma = '';$/;"	v
+firma	servidor/lib/cifrado_RSA_funciona.php	/^                $firma = base64_encode($firma);$/;"	v
+firma	servidor/lib/cifrado_RSA_funciona.php	/^                $firma = null;$/;"	v
+firma	servidor/lib/cifrado_RSA_funciona.php	/^            $firma = '';$/;"	v
+firmar	cliente/lib/cifrado_RSA.php	/^    function firmar($mensaje, $sellado = false, $usar_old = false)$/;"	f
+firmar	cliente/lib/cifrado_RSA_funciona.php	/^    function firmar($mensaje, $con_huella = true)$/;"	f
+firmar	lib/cifrado_RSA.php	/^    function firmar($mensaje, $sellado = false, $usar_old = false)$/;"	f
+firmar	lib/cifrado_RSA_funciona.php	/^    function firmar($mensaje, $con_huella = true)$/;"	f
+firmar	servidor/lib/cifrado_RSA.php	/^    function firmar($mensaje, $sellado = false, $usar_old = false)$/;"	f
+firmar	servidor/lib/cifrado_RSA_funciona.php	/^    function firmar($mensaje, $con_huella = true)$/;"	f
+firmo	cliente/lib/cifrado_RSA.php	/^                    $firmo = false;$/;"	v
+firmo	cliente/lib/cifrado_RSA.php	/^            $firmo = true;$/;"	v
+firmo	cliente/lib/cifrado_RSA_funciona.php	/^                    $firmo = false;$/;"	v
+firmo	cliente/lib/cifrado_RSA_funciona.php	/^            $firmo = true;$/;"	v
+firmo	lib/cifrado_RSA.php	/^                    $firmo = false;$/;"	v
+firmo	lib/cifrado_RSA.php	/^            $firmo = true;$/;"	v
+firmo	lib/cifrado_RSA_funciona.php	/^                    $firmo = false;$/;"	v
+firmo	lib/cifrado_RSA_funciona.php	/^            $firmo = true;$/;"	v
+firmo	servidor/lib/cifrado_RSA.php	/^                    $firmo = false;$/;"	v
+firmo	servidor/lib/cifrado_RSA.php	/^            $firmo = true;$/;"	v
+firmo	servidor/lib/cifrado_RSA_funciona.php	/^                    $firmo = false;$/;"	v
+firmo	servidor/lib/cifrado_RSA_funciona.php	/^            $firmo = true;$/;"	v
+formulario	cliente/lib/autenticacion.php	/^    function formulario()$/;"	f
+formulario	lib/autenticacion.php	/^    function formulario()$/;"	f
+formulario	servidor/lib/autenticacion.php	/^    function formulario()$/;"	f
+get_directorio	cliente/lib/REST.php	/^    protected function get_directorio()$/;"	f
+get_directorio	lib/REST.php	/^    protected function get_directorio()$/;"	f
+get_directorio	servidor/lib/REST.php	/^    protected function get_directorio()$/;"	f
+get_duracion	cliente/lib/REST.php	/^    function get_duracion()$/;"	f
+get_duracion	cliente/lib/REST.php	/^    protected function get_duracion()$/;"	f
+get_duracion	cliente/lib/cifrado_RSA.php	/^    function get_duracion()$/;"	f
+get_duracion	lib/REST.php	/^    function get_duracion()$/;"	f
+get_duracion	lib/REST.php	/^    protected function get_duracion()$/;"	f
+get_duracion	lib/cifrado_RSA.php	/^    function get_duracion()$/;"	f
+get_duracion	servidor/lib/REST.php	/^    function get_duracion()$/;"	f
+get_duracion	servidor/lib/REST.php	/^    protected function get_duracion()$/;"	f
+get_duracion	servidor/lib/cifrado_RSA.php	/^    function get_duracion()$/;"	f
+get_ll_pub_old	cliente/lib/cifrado_RSA.php	/^    function get_ll_pub_old()$/;"	f
+get_ll_pub_old	lib/cifrado_RSA.php	/^    function get_ll_pub_old()$/;"	f
+get_ll_pub_old	servidor/lib/cifrado_RSA.php	/^    function get_ll_pub_old()$/;"	f
+get_ll_publica	cliente/lib/cifrado_RSA.php	/^    function get_ll_publica()$/;"	f
+get_ll_publica	cliente/lib/cifrado_RSA_funciona.php	/^    function get_ll_publica()$/;"	f
+get_ll_publica	lib/cifrado_RSA.php	/^    function get_ll_publica()$/;"	f
+get_ll_publica	lib/cifrado_RSA_funciona.php	/^    function get_ll_publica()$/;"	f
+get_ll_publica	servidor/lib/cifrado_RSA.php	/^    function get_ll_publica()$/;"	f
+get_ll_publica	servidor/lib/cifrado_RSA_funciona.php	/^    function get_ll_publica()$/;"	f
+get_refrescar	cliente/lib/cifrado_RSA.php	/^    function get_refrescar()$/;"	f
+get_refrescar	lib/cifrado_RSA.php	/^    function get_refrescar()$/;"	f
+get_refrescar	servidor/lib/cifrado_RSA.php	/^    function get_refrescar()$/;"	f
+guardar_llave_publica_sesion	cliente/lib/REST.php	/^    public abstract function guardar_llave_publica_sesion($sesion, $pkey);$/;"	f
+guardar_llave_publica_sesion	cliente/lib/mi_servicio.php	/^    function guardar_llave_publica_sesion($sesion, $pkey)$/;"	f
+guardar_llave_publica_sesion	lib/REST.php	/^    public abstract function guardar_llave_publica_sesion($sesion, $pkey);$/;"	f
+guardar_llave_publica_sesion	lib/mi_servicio.php	/^    function guardar_llave_publica_sesion($sesion, $pkey)$/;"	f
+guardar_llave_publica_sesion	servidor/lib/REST.php	/^    public abstract function guardar_llave_publica_sesion($sesion, $pkey);$/;"	f
+guardar_llave_publica_sesion	servidor/lib/mi_servicio.php	/^    function guardar_llave_publica_sesion($sesion, $pkey)$/;"	f
+guardar_sesion_servicio	cliente/lib/REST.php	/^    public abstract function guardar_sesion_servicio($url, $sesion, $pkey);$/;"	f
+guardar_sesion_servicio	cliente/lib/mi_cliente.php	/^    function guardar_sesion_servicio($url, $sesion, $pkey)$/;"	f
+guardar_sesion_servicio	lib/REST.php	/^    public abstract function guardar_sesion_servicio($url, $sesion, $pkey);$/;"	f
+guardar_sesion_servicio	lib/mi_cliente.php	/^    function guardar_sesion_servicio($url, $sesion, $pkey)$/;"	f
+guardar_sesion_servicio	servidor/lib/REST.php	/^    public abstract function guardar_sesion_servicio($url, $sesion, $pkey);$/;"	f
+guardar_sesion_servicio	servidor/lib/mi_cliente.php	/^    function guardar_sesion_servicio($url, $sesion, $pkey)$/;"	f
+hash	cliente/lib/mi_cliente.php	/^        $hash = md5($url);$/;"	v
+hash	lib/mi_cliente.php	/^        $hash = md5($url);$/;"	v
+hash	servidor/lib/mi_cliente.php	/^        $hash = md5($url);$/;"	v
+hclave	cliente/lib/REST.php	/^            $hclave = $this->cargar_hash_de_clave($request['login']);$/;"	v
+hclave	cliente/lib/REST.php	/^            $this->hclave = $hclave;$/;"	v
+hclave	cliente/lib/REST.php	/^        $hclave = null;$/;"	v
+hclave	cliente/lib/REST.php	/^        $this->hclave  = null;$/;"	v
+hclave	cliente/lib/REST.php	/^    public  $hclave;     \/\/!< El sha512 de la clave.$/;"	v
+hclave	lib/REST.php	/^            $hclave = $this->cargar_hash_de_clave($request['login']);$/;"	v
+hclave	lib/REST.php	/^            $this->hclave = $hclave;$/;"	v
+hclave	lib/REST.php	/^        $hclave = null;$/;"	v
+hclave	lib/REST.php	/^        $this->hclave  = null;$/;"	v
+hclave	lib/REST.php	/^    public  $hclave;     \/\/!< El sha512 de la clave.$/;"	v
+hclave	servidor/lib/REST.php	/^            $hclave = $this->cargar_hash_de_clave($request['login']);$/;"	v
+hclave	servidor/lib/REST.php	/^            $this->hclave = $hclave;$/;"	v
+hclave	servidor/lib/REST.php	/^        $hclave = null;$/;"	v
+hclave	servidor/lib/REST.php	/^        $this->hclave  = null;$/;"	v
+hclave	servidor/lib/REST.php	/^    public  $hclave;     \/\/!< El sha512 de la clave.$/;"	v
+hours	cliente/lib/REST.php	/^                $hours = 0;$/;"	v
+hours	cliente/lib/REST.php	/^            $hours = $intervalo->format('%H');$/;"	v
+hours	cliente/lib/REST.php	/^            $hours = 0;$/;"	v
+hours	lib/REST.php	/^                $hours = 0;$/;"	v
+hours	lib/REST.php	/^            $hours = $intervalo->format('%H');$/;"	v
+hours	lib/REST.php	/^            $hours = 0;$/;"	v
+hours	servidor/lib/REST.php	/^                $hours = 0;$/;"	v
+hours	servidor/lib/REST.php	/^            $hours = $intervalo->format('%H');$/;"	v
+hours	servidor/lib/REST.php	/^            $hours = 0;$/;"	v
+huella_mensaje	cliente/lib/cifrado_RSA.php	/^                $huella_mensaje = hash($this->tipo_huella, $mensaje);$/;"	v
+huella_mensaje	cliente/lib/cifrado_RSA.php	/^            $huella_mensaje = hash($tipo_huella, $mensaje);$/;"	v
+huella_mensaje	cliente/lib/cifrado_RSA_funciona.php	/^                $huella_mensaje = hash($this->tipo_huella, $mensaje);$/;"	v
+huella_mensaje	cliente/lib/cifrado_RSA_funciona.php	/^            $huella_mensaje = hash($tipo_huella, $mensaje);$/;"	v
+huella_mensaje	lib/cifrado_RSA.php	/^                $huella_mensaje = hash($this->tipo_huella, $mensaje);$/;"	v
+huella_mensaje	lib/cifrado_RSA.php	/^            $huella_mensaje = hash($tipo_huella, $mensaje);$/;"	v
+huella_mensaje	lib/cifrado_RSA_funciona.php	/^                $huella_mensaje = hash($this->tipo_huella, $mensaje);$/;"	v
+huella_mensaje	lib/cifrado_RSA_funciona.php	/^            $huella_mensaje = hash($tipo_huella, $mensaje);$/;"	v
+huella_mensaje	servidor/lib/cifrado_RSA.php	/^                $huella_mensaje = hash($this->tipo_huella, $mensaje);$/;"	v
+huella_mensaje	servidor/lib/cifrado_RSA.php	/^            $huella_mensaje = hash($tipo_huella, $mensaje);$/;"	v
+huella_mensaje	servidor/lib/cifrado_RSA_funciona.php	/^                $huella_mensaje = hash($this->tipo_huella, $mensaje);$/;"	v
+huella_mensaje	servidor/lib/cifrado_RSA_funciona.php	/^            $huella_mensaje = hash($tipo_huella, $mensaje);$/;"	v
+libres	cliente/lib/REST.php	/^            $this->libres = array('metodo', 'll_publica_cliente');$/;"	v
+libres	cliente/lib/REST.php	/^    private $libres;       \/\/!< Los campos que no requieren intercambiarse cifrados.$/;"	v
+libres	lib/REST.php	/^            $this->libres = array('metodo', 'll_publica_cliente');$/;"	v
+libres	lib/REST.php	/^    private $libres;       \/\/!< Los campos que no requieren intercambiarse cifrados.$/;"	v
+libres	servidor/lib/REST.php	/^            $this->libres = array('metodo', 'll_publica_cliente');$/;"	v
+libres	servidor/lib/REST.php	/^    private $libres;       \/\/!< Los campos que no requieren intercambiarse cifrados.$/;"	v
+lista_blanca	cliente/lib/REST.php	/^            $this->lista_blanca = null;$/;"	v
+lista_blanca	cliente/lib/REST.php	/^        $this->lista_blanca = array();$/;"	v
+lista_blanca	cliente/lib/REST.php	/^    private $lista_blanca; \/\/!< Arreglo con los métodos existentes en el servidor.$/;"	v
+lista_blanca	lib/REST.php	/^            $this->lista_blanca = null;$/;"	v
+lista_blanca	lib/REST.php	/^        $this->lista_blanca = array();$/;"	v
+lista_blanca	lib/REST.php	/^    private $lista_blanca; \/\/!< Arreglo con los métodos existentes en el servidor.$/;"	v
+lista_blanca	servidor/lib/REST.php	/^            $this->lista_blanca = null;$/;"	v
+lista_blanca	servidor/lib/REST.php	/^        $this->lista_blanca = array();$/;"	v
+lista_blanca	servidor/lib/REST.php	/^    private $lista_blanca; \/\/!< Arreglo con los métodos existentes en el servidor.$/;"	v
+ll	cliente/lib/REST.php	/^                        foreach($los_datos as $ll => $vl)$/;"	v
+ll	cliente/lib/mi_cliente.php	/^                foreach ($valor as $ll => $vl)$/;"	v
+ll	cliente/lib/mi_cliente.php	/^            foreach ($valor as $ll => $vl)$/;"	v
+ll	lib/REST.php	/^                        foreach($los_datos as $ll => $vl)$/;"	v
+ll	lib/mi_cliente.php	/^                foreach ($valor as $ll => $vl)$/;"	v
+ll	lib/mi_cliente.php	/^            foreach ($valor as $ll => $vl)$/;"	v
+ll	servidor/lib/REST.php	/^                        foreach($los_datos as $ll => $vl)$/;"	v
+ll	servidor/lib/mi_cliente.php	/^                foreach ($valor as $ll => $vl)$/;"	v
+ll	servidor/lib/mi_cliente.php	/^            foreach ($valor as $ll => $vl)$/;"	v
+ll_cte	cliente/lib/REST.php	/^                    $this->ll_cte = $ll_cte;$/;"	v
+ll_cte	cliente/lib/REST.php	/^                $ll_cte = cargar_llave_publica_sesion($sesion);$/;"	v
+ll_cte	cliente/lib/REST.php	/^                $this->ll_cte = null;$/;"	v
+ll_cte	cliente/lib/REST.php	/^            $this->ll_cte = $request['ll_cte'];$/;"	v
+ll_cte	cliente/lib/REST.php	/^        $this->ll_cte = $request['ll_publica_cliente'];$/;"	v
+ll_cte	cliente/lib/REST.php	/^        $this->ll_cte = null;$/;"	v
+ll_cte	cliente/lib/REST.php	/^    private $ll_cte;       \/\/!< La llave pública del cliente que se ha conectado.$/;"	v
+ll_cte	lib/REST.php	/^                    $this->ll_cte = $ll_cte;$/;"	v
+ll_cte	lib/REST.php	/^                $ll_cte = cargar_llave_publica_sesion($sesion);$/;"	v
+ll_cte	lib/REST.php	/^                $this->ll_cte = null;$/;"	v
+ll_cte	lib/REST.php	/^            $this->ll_cte = $request['ll_cte'];$/;"	v
+ll_cte	lib/REST.php	/^        $this->ll_cte = $request['ll_publica_cliente'];$/;"	v
+ll_cte	lib/REST.php	/^        $this->ll_cte = null;$/;"	v
+ll_cte	lib/REST.php	/^    private $ll_cte;       \/\/!< La llave pública del cliente que se ha conectado.$/;"	v
+ll_cte	servidor/lib/REST.php	/^                    $this->ll_cte = $ll_cte;$/;"	v
+ll_cte	servidor/lib/REST.php	/^                $ll_cte = cargar_llave_publica_sesion($sesion);$/;"	v
+ll_cte	servidor/lib/REST.php	/^                $this->ll_cte = null;$/;"	v
+ll_cte	servidor/lib/REST.php	/^            $this->ll_cte = $request['ll_cte'];$/;"	v
+ll_cte	servidor/lib/REST.php	/^        $this->ll_cte = $request['ll_publica_cliente'];$/;"	v
+ll_cte	servidor/lib/REST.php	/^        $this->ll_cte = null;$/;"	v
+ll_cte	servidor/lib/REST.php	/^    private $ll_cte;       \/\/!< La llave pública del cliente que se ha conectado.$/;"	v
+ll_pri_old	cliente/lib/cifrado_RSA.php	/^                $ll_pri_old = file_get_contents($ruta_base."_old.crt");$/;"	v
+ll_pri_old	cliente/lib/cifrado_RSA.php	/^                $ll_pri_old = null;$/;"	v
+ll_pri_old	cliente/lib/cifrado_RSA.php	/^            $ll_pri_old = file_get_contents($ruta_base."_old.crt");$/;"	v
+ll_pri_old	cliente/lib/cifrado_RSA.php	/^        $ll_pri_old = null;$/;"	v
+ll_pri_old	cliente/lib/cifrado_RSA.php	/^        $this->ll_pri_old = $ll_pri_old;$/;"	v
+ll_pri_old	cliente/lib/cifrado_RSA.php	/^    private $ll_pri_old; \/*!< \\var La llave privada por expirar *\/$/;"	v
+ll_pri_old	lib/cifrado_RSA.php	/^                $ll_pri_old = file_get_contents($ruta_base."_old.crt");$/;"	v
+ll_pri_old	lib/cifrado_RSA.php	/^                $ll_pri_old = null;$/;"	v
+ll_pri_old	lib/cifrado_RSA.php	/^            $ll_pri_old = file_get_contents($ruta_base."_old.crt");$/;"	v
+ll_pri_old	lib/cifrado_RSA.php	/^        $ll_pri_old = null;$/;"	v
+ll_pri_old	lib/cifrado_RSA.php	/^        $this->ll_pri_old = $ll_pri_old;$/;"	v
+ll_pri_old	lib/cifrado_RSA.php	/^    private $ll_pri_old; \/*!< \\var La llave privada por expirar *\/$/;"	v
+ll_pri_old	servidor/lib/cifrado_RSA.php	/^                $ll_pri_old = file_get_contents($ruta_base."_old.crt");$/;"	v
+ll_pri_old	servidor/lib/cifrado_RSA.php	/^                $ll_pri_old = null;$/;"	v
+ll_pri_old	servidor/lib/cifrado_RSA.php	/^            $ll_pri_old = file_get_contents($ruta_base."_old.crt");$/;"	v
+ll_pri_old	servidor/lib/cifrado_RSA.php	/^        $ll_pri_old = null;$/;"	v
+ll_pri_old	servidor/lib/cifrado_RSA.php	/^        $this->ll_pri_old = $ll_pri_old;$/;"	v
+ll_pri_old	servidor/lib/cifrado_RSA.php	/^    private $ll_pri_old; \/*!< \\var La llave privada por expirar *\/$/;"	v
+ll_privada	cliente/lib/autenticacion.php	/^            $ll_privada = file_get_contents($directorio.$nombre_base.".crt");$/;"	v
+ll_privada	cliente/lib/autenticacion.php	/^        $ll_privada = file_get_contents($ruta_base.".crt");$/;"	v
+ll_privada	cliente/lib/cifrado_RSA.php	/^                $ll_privada = $this->ll_pri_old;$/;"	v
+ll_privada	cliente/lib/cifrado_RSA.php	/^                $ll_privada = file_get_contents($ruta_base.".crt");$/;"	v
+ll_privada	cliente/lib/cifrado_RSA.php	/^            $ll_privada = $this->ll_privada;$/;"	v
+ll_privada	cliente/lib/cifrado_RSA.php	/^        $ll_privada = file_get_contents($ruta_base.".crt");$/;"	v
+ll_privada	cliente/lib/cifrado_RSA.php	/^        $this->ll_privada = $ll_privada;$/;"	v
+ll_privada	cliente/lib/cifrado_RSA.php	/^    private $ll_privada; \/*!< \\var La llave privada *\/$/;"	v
+ll_privada	cliente/lib/cifrado_RSA_funciona.php	/^                $ll_privada = file_get_contents($ruta_base.".crt");$/;"	v
+ll_privada	cliente/lib/cifrado_RSA_funciona.php	/^        $ll_privada = file_get_contents($ruta_base.".crt");$/;"	v
+ll_privada	cliente/lib/cifrado_RSA_funciona.php	/^        $this->ll_privada = $ll_privada;$/;"	v
+ll_privada	cliente/lib/cifrado_RSA_funciona.php	/^    private $ll_privada; \/\/ La llave privada$/;"	v
+ll_privada	lib/autenticacion.php	/^            $ll_privada = file_get_contents($directorio.$nombre_base.".crt");$/;"	v
+ll_privada	lib/autenticacion.php	/^        $ll_privada = file_get_contents($ruta_base.".crt");$/;"	v
+ll_privada	lib/cifrado_RSA.php	/^                $ll_privada = $this->ll_pri_old;$/;"	v
+ll_privada	lib/cifrado_RSA.php	/^                $ll_privada = file_get_contents($ruta_base.".crt");$/;"	v
+ll_privada	lib/cifrado_RSA.php	/^            $ll_privada = $this->ll_privada;$/;"	v
+ll_privada	lib/cifrado_RSA.php	/^        $ll_privada = file_get_contents($ruta_base.".crt");$/;"	v
+ll_privada	lib/cifrado_RSA.php	/^        $this->ll_privada = $ll_privada;$/;"	v
+ll_privada	lib/cifrado_RSA.php	/^    private $ll_privada; \/*!< \\var La llave privada *\/$/;"	v
+ll_privada	lib/cifrado_RSA_funciona.php	/^                $ll_privada = file_get_contents($ruta_base.".crt");$/;"	v
+ll_privada	lib/cifrado_RSA_funciona.php	/^        $ll_privada = file_get_contents($ruta_base.".crt");$/;"	v
+ll_privada	lib/cifrado_RSA_funciona.php	/^        $this->ll_privada = $ll_privada;$/;"	v
+ll_privada	lib/cifrado_RSA_funciona.php	/^    private $ll_privada; \/\/ La llave privada$/;"	v
+ll_privada	servidor/lib/autenticacion.php	/^            $ll_privada = file_get_contents($directorio.$nombre_base.".crt");$/;"	v
+ll_privada	servidor/lib/autenticacion.php	/^        $ll_privada = file_get_contents($ruta_base.".crt");$/;"	v
+ll_privada	servidor/lib/cifrado_RSA.php	/^                $ll_privada = $this->ll_pri_old;$/;"	v
+ll_privada	servidor/lib/cifrado_RSA.php	/^                $ll_privada = file_get_contents($ruta_base.".crt");$/;"	v
+ll_privada	servidor/lib/cifrado_RSA.php	/^            $ll_privada = $this->ll_privada;$/;"	v
+ll_privada	servidor/lib/cifrado_RSA.php	/^        $ll_privada = file_get_contents($ruta_base.".crt");$/;"	v
+ll_privada	servidor/lib/cifrado_RSA.php	/^        $this->ll_privada = $ll_privada;$/;"	v
+ll_privada	servidor/lib/cifrado_RSA.php	/^    private $ll_privada; \/*!< \\var La llave privada *\/$/;"	v
+ll_privada	servidor/lib/cifrado_RSA_funciona.php	/^                $ll_privada = file_get_contents($ruta_base.".crt");$/;"	v
+ll_privada	servidor/lib/cifrado_RSA_funciona.php	/^        $ll_privada = file_get_contents($ruta_base.".crt");$/;"	v
+ll_privada	servidor/lib/cifrado_RSA_funciona.php	/^        $this->ll_privada = $ll_privada;$/;"	v
+ll_privada	servidor/lib/cifrado_RSA_funciona.php	/^    private $ll_privada; \/\/ La llave privada$/;"	v
+ll_pub_old	cliente/lib/cifrado_RSA.php	/^                $ll_pub_old = file_get_contents($ruta_base."_old.pub");$/;"	v
+ll_pub_old	cliente/lib/cifrado_RSA.php	/^                $ll_pub_old = null;$/;"	v
+ll_pub_old	cliente/lib/cifrado_RSA.php	/^            $ll_pub_old = file_get_contents($ruta_base."_old.pub");$/;"	v
+ll_pub_old	cliente/lib/cifrado_RSA.php	/^        $ll_pub_old = null;$/;"	v
+ll_pub_old	cliente/lib/cifrado_RSA.php	/^        $this->ll_pub_old = $ll_pub_old;$/;"	v
+ll_pub_old	cliente/lib/cifrado_RSA.php	/^    private $ll_pub_old; \/*!< \\var La llave pública por expirar *\/$/;"	v
+ll_pub_old	lib/cifrado_RSA.php	/^                $ll_pub_old = file_get_contents($ruta_base."_old.pub");$/;"	v
+ll_pub_old	lib/cifrado_RSA.php	/^                $ll_pub_old = null;$/;"	v
+ll_pub_old	lib/cifrado_RSA.php	/^            $ll_pub_old = file_get_contents($ruta_base."_old.pub");$/;"	v
+ll_pub_old	lib/cifrado_RSA.php	/^        $ll_pub_old = null;$/;"	v
+ll_pub_old	lib/cifrado_RSA.php	/^        $this->ll_pub_old = $ll_pub_old;$/;"	v
+ll_pub_old	lib/cifrado_RSA.php	/^    private $ll_pub_old; \/*!< \\var La llave pública por expirar *\/$/;"	v
+ll_pub_old	servidor/lib/cifrado_RSA.php	/^                $ll_pub_old = file_get_contents($ruta_base."_old.pub");$/;"	v
+ll_pub_old	servidor/lib/cifrado_RSA.php	/^                $ll_pub_old = null;$/;"	v
+ll_pub_old	servidor/lib/cifrado_RSA.php	/^            $ll_pub_old = file_get_contents($ruta_base."_old.pub");$/;"	v
+ll_pub_old	servidor/lib/cifrado_RSA.php	/^        $ll_pub_old = null;$/;"	v
+ll_pub_old	servidor/lib/cifrado_RSA.php	/^        $this->ll_pub_old = $ll_pub_old;$/;"	v
+ll_pub_old	servidor/lib/cifrado_RSA.php	/^    private $ll_pub_old; \/*!< \\var La llave pública por expirar *\/$/;"	v
+ll_publica	cliente/lib/autenticacion.php	/^            $ll_publica  = file_get_contents($directorio.$nombre_base.".pub");$/;"	v
+ll_publica	cliente/lib/autenticacion.php	/^        $ll_publica = $ll_publicaData["key"];$/;"	v
+ll_publica	cliente/lib/cifrado_RSA.php	/^                $ll_publica = file_get_contents($ruta_base.".pub");$/;"	v
+ll_publica	cliente/lib/cifrado_RSA.php	/^        $ll_publica = $ll_publicaData["key"];$/;"	v
+ll_publica	cliente/lib/cifrado_RSA.php	/^        $this->ll_publica = $ll_publica;$/;"	v
+ll_publica	cliente/lib/cifrado_RSA.php	/^    private $ll_publica; \/*!< \\var La llave pública *\/$/;"	v
+ll_publica	cliente/lib/cifrado_RSA_funciona.php	/^                $ll_publica = file_get_contents($ruta_base.".pub");$/;"	v
+ll_publica	cliente/lib/cifrado_RSA_funciona.php	/^        $ll_publica = $ll_publicaData["key"];$/;"	v
+ll_publica	cliente/lib/cifrado_RSA_funciona.php	/^        $this->ll_publica = $ll_publica;$/;"	v
+ll_publica	cliente/lib/cifrado_RSA_funciona.php	/^    private $ll_publica; \/\/ La llave pública$/;"	v
+ll_publica	lib/autenticacion.php	/^            $ll_publica  = file_get_contents($directorio.$nombre_base.".pub");$/;"	v
+ll_publica	lib/autenticacion.php	/^        $ll_publica = $ll_publicaData["key"];$/;"	v
+ll_publica	lib/cifrado_RSA.php	/^                $ll_publica = file_get_contents($ruta_base.".pub");$/;"	v
+ll_publica	lib/cifrado_RSA.php	/^        $ll_publica = $ll_publicaData["key"];$/;"	v
+ll_publica	lib/cifrado_RSA.php	/^        $this->ll_publica = $ll_publica;$/;"	v
+ll_publica	lib/cifrado_RSA.php	/^    private $ll_publica; \/*!< \\var La llave pública *\/$/;"	v
+ll_publica	lib/cifrado_RSA_funciona.php	/^                $ll_publica = file_get_contents($ruta_base.".pub");$/;"	v
+ll_publica	lib/cifrado_RSA_funciona.php	/^        $ll_publica = $ll_publicaData["key"];$/;"	v
+ll_publica	lib/cifrado_RSA_funciona.php	/^        $this->ll_publica = $ll_publica;$/;"	v
+ll_publica	lib/cifrado_RSA_funciona.php	/^    private $ll_publica; \/\/ La llave pública$/;"	v
+ll_publica	servidor/lib/autenticacion.php	/^            $ll_publica  = file_get_contents($directorio.$nombre_base.".pub");$/;"	v
+ll_publica	servidor/lib/autenticacion.php	/^        $ll_publica = $ll_publicaData["key"];$/;"	v
+ll_publica	servidor/lib/cifrado_RSA.php	/^                $ll_publica = file_get_contents($ruta_base.".pub");$/;"	v
+ll_publica	servidor/lib/cifrado_RSA.php	/^        $ll_publica = $ll_publicaData["key"];$/;"	v
+ll_publica	servidor/lib/cifrado_RSA.php	/^        $this->ll_publica = $ll_publica;$/;"	v
+ll_publica	servidor/lib/cifrado_RSA.php	/^    private $ll_publica; \/*!< \\var La llave pública *\/$/;"	v
+ll_publica	servidor/lib/cifrado_RSA_funciona.php	/^                $ll_publica = file_get_contents($ruta_base.".pub");$/;"	v
+ll_publica	servidor/lib/cifrado_RSA_funciona.php	/^        $ll_publica = $ll_publicaData["key"];$/;"	v
+ll_publica	servidor/lib/cifrado_RSA_funciona.php	/^        $this->ll_publica = $ll_publica;$/;"	v
+ll_publica	servidor/lib/cifrado_RSA_funciona.php	/^    private $ll_publica; \/\/ La llave pública$/;"	v
+ll_publicaData	cliente/lib/autenticacion.php	/^        $ll_publicaData = openssl_pkey_get_details($llavePrivadaCruda);$/;"	v
+ll_publicaData	cliente/lib/cifrado_RSA.php	/^        $ll_publicaData = openssl_pkey_get_details($llavePrivadaCruda);$/;"	v
+ll_publicaData	cliente/lib/cifrado_RSA_funciona.php	/^        $ll_publicaData = openssl_pkey_get_details($llavePrivadaCruda);$/;"	v
+ll_publicaData	lib/autenticacion.php	/^        $ll_publicaData = openssl_pkey_get_details($llavePrivadaCruda);$/;"	v
+ll_publicaData	lib/cifrado_RSA.php	/^        $ll_publicaData = openssl_pkey_get_details($llavePrivadaCruda);$/;"	v
+ll_publicaData	lib/cifrado_RSA_funciona.php	/^        $ll_publicaData = openssl_pkey_get_details($llavePrivadaCruda);$/;"	v
+ll_publicaData	servidor/lib/autenticacion.php	/^        $ll_publicaData = openssl_pkey_get_details($llavePrivadaCruda);$/;"	v
+ll_publicaData	servidor/lib/cifrado_RSA.php	/^        $ll_publicaData = openssl_pkey_get_details($llavePrivadaCruda);$/;"	v
+ll_publicaData	servidor/lib/cifrado_RSA_funciona.php	/^        $ll_publicaData = openssl_pkey_get_details($llavePrivadaCruda);$/;"	v
+ll_srv	cliente/lib/REST.php	/^                        $this->ll_srv = $llave->pkey;$/;"	v
+ll_srv	cliente/lib/REST.php	/^        $this->ll_srv  = null;$/;"	v
+ll_srv	cliente/lib/REST.php	/^    private $ll_srv;     \/\/!< La llave pública del servicio se va a consultar.$/;"	v
+ll_srv	lib/REST.php	/^                        $this->ll_srv = $llave->pkey;$/;"	v
+ll_srv	lib/REST.php	/^        $this->ll_srv  = null;$/;"	v
+ll_srv	lib/REST.php	/^    private $ll_srv;     \/\/!< La llave pública del servicio se va a consultar.$/;"	v
+ll_srv	servidor/lib/REST.php	/^                        $this->ll_srv = $llave->pkey;$/;"	v
+ll_srv	servidor/lib/REST.php	/^        $this->ll_srv  = null;$/;"	v
+ll_srv	servidor/lib/REST.php	/^    private $ll_srv;     \/\/!< La llave pública del servicio se va a consultar.$/;"	v
+llave	cliente/lib/REST.php	/^                    $llave = json_decode($respuesta[0]);$/;"	v
+llave	cliente/lib/REST.php	/^        foreach ($arreglo as $llave => $valor) {$/;"	v
+llave	cliente/lib/REST.php	/^        foreach ($lista_blanca['metodo'] as $llave => $valor) {$/;"	v
+llave	cliente/lib/cifrado_RSA.php	/^        foreach ($bloques as $llave => $bloque) {$/;"	v
+llave	cliente/lib/cifrado_RSA_funciona.php	/^        foreach ($bloques as $llave => $bloque) {$/;"	v
+llave	cliente/lib/mi_cliente.php	/^            foreach ($llavero as $llave => $valor)$/;"	v
+llave	cliente/lib/mi_cliente.php	/^        foreach ($llavero as $llave => $valor)$/;"	v
+llave	cliente/lib/mi_servicio.php	/^        foreach ($llavero as $llave => $valor)$/;"	v
+llave	lib/REST.php	/^                    $llave = json_decode($respuesta[0]);$/;"	v
+llave	lib/REST.php	/^        foreach ($arreglo as $llave => $valor) {$/;"	v
+llave	lib/REST.php	/^        foreach ($lista_blanca['metodo'] as $llave => $valor) {$/;"	v
+llave	lib/cifrado_RSA.php	/^        foreach ($bloques as $llave => $bloque) {$/;"	v
+llave	lib/cifrado_RSA_funciona.php	/^        foreach ($bloques as $llave => $bloque) {$/;"	v
+llave	lib/mi_cliente.php	/^            foreach ($llavero as $llave => $valor)$/;"	v
+llave	lib/mi_cliente.php	/^        foreach ($llavero as $llave => $valor)$/;"	v
+llave	lib/mi_servicio.php	/^        foreach ($llavero as $llave => $valor)$/;"	v
+llave	servidor/lib/REST.php	/^                    $llave = json_decode($respuesta[0]);$/;"	v
+llave	servidor/lib/REST.php	/^        foreach ($arreglo as $llave => $valor) {$/;"	v
+llave	servidor/lib/REST.php	/^        foreach ($lista_blanca['metodo'] as $llave => $valor) {$/;"	v
+llave	servidor/lib/cifrado_RSA.php	/^        foreach ($bloques as $llave => $bloque) {$/;"	v
+llave	servidor/lib/cifrado_RSA_funciona.php	/^        foreach ($bloques as $llave => $bloque) {$/;"	v
+llave	servidor/lib/mi_cliente.php	/^            foreach ($llavero as $llave => $valor)$/;"	v
+llave	servidor/lib/mi_cliente.php	/^        foreach ($llavero as $llave => $valor)$/;"	v
+llave	servidor/lib/mi_servicio.php	/^        foreach ($llavero as $llave => $valor)$/;"	v
+llavePrivadaCruda	cliente/lib/autenticacion.php	/^        $llavePrivadaCruda = openssl_pkey_new($config);$/;"	v
+llavePrivadaCruda	cliente/lib/cifrado_RSA.php	/^        $llavePrivadaCruda = openssl_pkey_new($config);$/;"	v
+llavePrivadaCruda	cliente/lib/cifrado_RSA_funciona.php	/^        $llavePrivadaCruda = openssl_pkey_new($config);$/;"	v
+llavePrivadaCruda	lib/autenticacion.php	/^        $llavePrivadaCruda = openssl_pkey_new($config);$/;"	v
+llavePrivadaCruda	lib/cifrado_RSA.php	/^        $llavePrivadaCruda = openssl_pkey_new($config);$/;"	v
+llavePrivadaCruda	lib/cifrado_RSA_funciona.php	/^        $llavePrivadaCruda = openssl_pkey_new($config);$/;"	v
+llavePrivadaCruda	servidor/lib/autenticacion.php	/^        $llavePrivadaCruda = openssl_pkey_new($config);$/;"	v
+llavePrivadaCruda	servidor/lib/cifrado_RSA.php	/^        $llavePrivadaCruda = openssl_pkey_new($config);$/;"	v
+llavePrivadaCruda	servidor/lib/cifrado_RSA_funciona.php	/^        $llavePrivadaCruda = openssl_pkey_new($config);$/;"	v
+llavero	cliente/lib/mi_cliente.php	/^            $llavero = $arr;$/;"	v
+llavero	cliente/lib/mi_cliente.php	/^            $llavero = file_get_contents($directorio."\/prv\/llavero_pubkeys.db");$/;"	v
+llavero	cliente/lib/mi_cliente.php	/^            $llavero = json_decode($llavero);$/;"	v
+llavero	cliente/lib/mi_cliente.php	/^            \/\/ $llavero = base64_decode($llavero);$/;"	v
+llavero	cliente/lib/mi_cliente.php	/^        $llavero = $arreglo;$/;"	v
+llavero	cliente/lib/mi_cliente.php	/^        $llavero = array();$/;"	v
+llavero	cliente/lib/mi_cliente.php	/^        $llavero = json_encode($llavero);$/;"	v
+llavero	cliente/lib/mi_cliente.php	/^        \/\/ $llavero = base64_encode($llavero);$/;"	v
+llavero	cliente/lib/mi_servicio.php	/^            $llavero = file_get_contents($directorio."\/llavero_pubkeys.db");$/;"	v
+llavero	cliente/lib/mi_servicio.php	/^            $llavero = file_get_contents($directorio."\/prv\/llavero_pubkeys.db");$/;"	v
+llavero	cliente/lib/mi_servicio.php	/^            $llavero = json_decode($llavero);$/;"	v
+llavero	cliente/lib/mi_servicio.php	/^            \/\/ $llavero = base64_decode($llavero);$/;"	v
+llavero	cliente/lib/mi_servicio.php	/^        $llavero = $arreglo;$/;"	v
+llavero	cliente/lib/mi_servicio.php	/^        $llavero = $sin_antiguas;$/;"	v
+llavero	cliente/lib/mi_servicio.php	/^        $llavero = array();$/;"	v
+llavero	cliente/lib/mi_servicio.php	/^        $llavero = json_encode($llavero);$/;"	v
+llavero	cliente/lib/mi_servicio.php	/^        \/\/ $llavero = base64_encode($llavero);$/;"	v
+llavero	lib/mi_cliente.php	/^            $llavero = $arr;$/;"	v
+llavero	lib/mi_cliente.php	/^            $llavero = file_get_contents($directorio."\/prv\/llavero_pubkeys.db");$/;"	v
+llavero	lib/mi_cliente.php	/^            $llavero = json_decode($llavero);$/;"	v
+llavero	lib/mi_cliente.php	/^            \/\/ $llavero = base64_decode($llavero);$/;"	v
+llavero	lib/mi_cliente.php	/^        $llavero = $arreglo;$/;"	v
+llavero	lib/mi_cliente.php	/^        $llavero = array();$/;"	v
+llavero	lib/mi_cliente.php	/^        $llavero = json_encode($llavero);$/;"	v
+llavero	lib/mi_cliente.php	/^        \/\/ $llavero = base64_encode($llavero);$/;"	v
+llavero	lib/mi_servicio.php	/^            $llavero = file_get_contents($directorio."\/llavero_pubkeys.db");$/;"	v
+llavero	lib/mi_servicio.php	/^            $llavero = file_get_contents($directorio."\/prv\/llavero_pubkeys.db");$/;"	v
+llavero	lib/mi_servicio.php	/^            $llavero = json_decode($llavero);$/;"	v
+llavero	lib/mi_servicio.php	/^            \/\/ $llavero = base64_decode($llavero);$/;"	v
+llavero	lib/mi_servicio.php	/^        $llavero = $arreglo;$/;"	v
+llavero	lib/mi_servicio.php	/^        $llavero = $sin_antiguas;$/;"	v
+llavero	lib/mi_servicio.php	/^        $llavero = array();$/;"	v
+llavero	lib/mi_servicio.php	/^        $llavero = json_encode($llavero);$/;"	v
+llavero	lib/mi_servicio.php	/^        \/\/ $llavero = base64_encode($llavero);$/;"	v
+llavero	servidor/lib/mi_cliente.php	/^            $llavero = $arr;$/;"	v
+llavero	servidor/lib/mi_cliente.php	/^            $llavero = file_get_contents($directorio."\/prv\/llavero_pubkeys.db");$/;"	v
+llavero	servidor/lib/mi_cliente.php	/^            $llavero = json_decode($llavero);$/;"	v
+llavero	servidor/lib/mi_cliente.php	/^            \/\/ $llavero = base64_decode($llavero);$/;"	v
+llavero	servidor/lib/mi_cliente.php	/^        $llavero = $arreglo;$/;"	v
+llavero	servidor/lib/mi_cliente.php	/^        $llavero = array();$/;"	v
+llavero	servidor/lib/mi_cliente.php	/^        $llavero = json_encode($llavero);$/;"	v
+llavero	servidor/lib/mi_cliente.php	/^        \/\/ $llavero = base64_encode($llavero);$/;"	v
+llavero	servidor/lib/mi_servicio.php	/^            $llavero = file_get_contents($directorio."\/llavero_pubkeys.db");$/;"	v
+llavero	servidor/lib/mi_servicio.php	/^            $llavero = file_get_contents($directorio."\/prv\/llavero_pubkeys.db");$/;"	v
+llavero	servidor/lib/mi_servicio.php	/^            $llavero = json_decode($llavero);$/;"	v
+llavero	servidor/lib/mi_servicio.php	/^            \/\/ $llavero = base64_decode($llavero);$/;"	v
+llavero	servidor/lib/mi_servicio.php	/^        $llavero = $arreglo;$/;"	v
+llavero	servidor/lib/mi_servicio.php	/^        $llavero = $sin_antiguas;$/;"	v
+llavero	servidor/lib/mi_servicio.php	/^        $llavero = array();$/;"	v
+llavero	servidor/lib/mi_servicio.php	/^        $llavero = json_encode($llavero);$/;"	v
+llavero	servidor/lib/mi_servicio.php	/^        \/\/ $llavero = base64_encode($llavero);$/;"	v
+login	cliente/cliente.php	/^$login = "skinait";$/;"	v
+login	cliente/lib/REST.php	/^            $this->login = $login;$/;"	v
+login	cliente/lib/REST.php	/^        $this->login   = null;$/;"	v
+login	cliente/lib/REST.php	/^    public  $login;      \/\/!< El login.$/;"	v
+login	cliente/lib/autenticacion.php	/^        $this->login  = "";$/;"	v
+login	cliente/lib/autenticacion.php	/^    public  $login;    \/\/ El login$/;"	v
+login	lib/REST.php	/^            $this->login = $login;$/;"	v
+login	lib/REST.php	/^        $this->login   = null;$/;"	v
+login	lib/REST.php	/^    public  $login;      \/\/!< El login.$/;"	v
+login	lib/autenticacion.php	/^        $this->login  = "";$/;"	v
+login	lib/autenticacion.php	/^    public  $login;    \/\/ El login$/;"	v
+login	servidor/lib/REST.php	/^            $this->login = $login;$/;"	v
+login	servidor/lib/REST.php	/^        $this->login   = null;$/;"	v
+login	servidor/lib/REST.php	/^    public  $login;      \/\/!< El login.$/;"	v
+login	servidor/lib/autenticacion.php	/^        $this->login  = "";$/;"	v
+login	servidor/lib/autenticacion.php	/^    public  $login;    \/\/ El login$/;"	v
+logro	cliente/lib/cifrado_RSA.php	/^                    $logro = @openssl_private_decrypt( $bloque$/;"	v
+logro	cliente/lib/cifrado_RSA.php	/^                    $logro = openssl_private_decrypt( $bloque$/;"	v
+logro	cliente/lib/cifrado_RSA.php	/^                $logro = openssl_private_encrypt( $bloque$/;"	v
+logro	cliente/lib/cifrado_RSA.php	/^                $logro = openssl_public_decrypt( $bloque, $parcial$/;"	v
+logro	cliente/lib/cifrado_RSA.php	/^            $logro = openssl_private_decrypt( $bloque$/;"	v
+logro	cliente/lib/cifrado_RSA.php	/^            $logro = openssl_public_encrypt( $bloque$/;"	v
+logro	cliente/lib/cifrado_RSA_funciona.php	/^                $logro = openssl_private_decrypt( $bloque$/;"	v
+logro	cliente/lib/cifrado_RSA_funciona.php	/^                $logro = openssl_private_encrypt( $bloque$/;"	v
+logro	cliente/lib/cifrado_RSA_funciona.php	/^                $logro = openssl_public_decrypt( $bloque, $parcial$/;"	v
+logro	cliente/lib/cifrado_RSA_funciona.php	/^            $logro = openssl_public_encrypt( $bloque$/;"	v
+logro	lib/cifrado_RSA.php	/^                    $logro = @openssl_private_decrypt( $bloque$/;"	v
+logro	lib/cifrado_RSA.php	/^                    $logro = openssl_private_decrypt( $bloque$/;"	v
+logro	lib/cifrado_RSA.php	/^                $logro = openssl_private_encrypt( $bloque$/;"	v
+logro	lib/cifrado_RSA.php	/^                $logro = openssl_public_decrypt( $bloque, $parcial$/;"	v
+logro	lib/cifrado_RSA.php	/^            $logro = openssl_private_decrypt( $bloque$/;"	v
+logro	lib/cifrado_RSA.php	/^            $logro = openssl_public_encrypt( $bloque$/;"	v
+logro	lib/cifrado_RSA_funciona.php	/^                $logro = openssl_private_decrypt( $bloque$/;"	v
+logro	lib/cifrado_RSA_funciona.php	/^                $logro = openssl_private_encrypt( $bloque$/;"	v
+logro	lib/cifrado_RSA_funciona.php	/^                $logro = openssl_public_decrypt( $bloque, $parcial$/;"	v
+logro	lib/cifrado_RSA_funciona.php	/^            $logro = openssl_public_encrypt( $bloque$/;"	v
+logro	servidor/lib/cifrado_RSA.php	/^                    $logro = @openssl_private_decrypt( $bloque$/;"	v
+logro	servidor/lib/cifrado_RSA.php	/^                    $logro = openssl_private_decrypt( $bloque$/;"	v
+logro	servidor/lib/cifrado_RSA.php	/^                $logro = openssl_private_encrypt( $bloque$/;"	v
+logro	servidor/lib/cifrado_RSA.php	/^                $logro = openssl_public_decrypt( $bloque, $parcial$/;"	v
+logro	servidor/lib/cifrado_RSA.php	/^            $logro = openssl_private_decrypt( $bloque$/;"	v
+logro	servidor/lib/cifrado_RSA.php	/^            $logro = openssl_public_encrypt( $bloque$/;"	v
+logro	servidor/lib/cifrado_RSA_funciona.php	/^                $logro = openssl_private_decrypt( $bloque$/;"	v
+logro	servidor/lib/cifrado_RSA_funciona.php	/^                $logro = openssl_private_encrypt( $bloque$/;"	v
+logro	servidor/lib/cifrado_RSA_funciona.php	/^                $logro = openssl_public_decrypt( $bloque, $parcial$/;"	v
+logro	servidor/lib/cifrado_RSA_funciona.php	/^            $logro = openssl_public_encrypt( $bloque$/;"	v
+los_datos	cliente/lib/REST.php	/^                    $los_datos = json_decode($dato);$/;"	v
+los_datos	lib/REST.php	/^                    $los_datos = json_decode($dato);$/;"	v
+los_datos	servidor/lib/REST.php	/^                    $los_datos = json_decode($dato);$/;"	v
+mensaje	cliente/lib/cifrado_RSA.php	/^                $mensaje = base64_encode($huella_mensaje);$/;"	v
+mensaje	cliente/lib/cifrado_RSA.php	/^                $mensaje = base64_encode($mensaje);$/;"	v
+mensaje	cliente/lib/cifrado_RSA.php	/^            $mensaje = base64_decode($descifrado);$/;"	v
+mensaje	cliente/lib/cifrado_RSA_funciona.php	/^                $mensaje = base64_encode($huella_mensaje);$/;"	v
+mensaje	cliente/lib/cifrado_RSA_funciona.php	/^                $mensaje = base64_encode($mensaje);$/;"	v
+mensaje	cliente/lib/cifrado_RSA_funciona.php	/^            $mensaje = base64_decode($descifrado);$/;"	v
+mensaje	cliente/lib/cifrado_RSA_funciona.php	/^            \/\/ $mensaje = base64_decode($mensaje);$/;"	v
+mensaje	lib/cifrado_RSA.php	/^                $mensaje = base64_encode($huella_mensaje);$/;"	v
+mensaje	lib/cifrado_RSA.php	/^                $mensaje = base64_encode($mensaje);$/;"	v
+mensaje	lib/cifrado_RSA.php	/^            $mensaje = base64_decode($descifrado);$/;"	v
+mensaje	lib/cifrado_RSA_funciona.php	/^                $mensaje = base64_encode($huella_mensaje);$/;"	v
+mensaje	lib/cifrado_RSA_funciona.php	/^                $mensaje = base64_encode($mensaje);$/;"	v
+mensaje	lib/cifrado_RSA_funciona.php	/^            $mensaje = base64_decode($descifrado);$/;"	v
+mensaje	lib/cifrado_RSA_funciona.php	/^            \/\/ $mensaje = base64_decode($mensaje);$/;"	v
+mensaje	servidor/lib/cifrado_RSA.php	/^                $mensaje = base64_encode($huella_mensaje);$/;"	v
+mensaje	servidor/lib/cifrado_RSA.php	/^                $mensaje = base64_encode($mensaje);$/;"	v
+mensaje	servidor/lib/cifrado_RSA.php	/^            $mensaje = base64_decode($descifrado);$/;"	v
+mensaje	servidor/lib/cifrado_RSA_funciona.php	/^                $mensaje = base64_encode($huella_mensaje);$/;"	v
+mensaje	servidor/lib/cifrado_RSA_funciona.php	/^                $mensaje = base64_encode($mensaje);$/;"	v
+mensaje	servidor/lib/cifrado_RSA_funciona.php	/^            $mensaje = base64_decode($descifrado);$/;"	v
+mensaje	servidor/lib/cifrado_RSA_funciona.php	/^            \/\/ $mensaje = base64_decode($mensaje);$/;"	v
+metodo	cliente/lib/REST.php	/^            $metodo = $request['metodo'];$/;"	v
+metodo	cliente/lib/REST.php	/^        $metodo = "saludo";$/;"	v
+metodo	lib/REST.php	/^            $metodo = $request['metodo'];$/;"	v
+metodo	lib/REST.php	/^        $metodo = "saludo";$/;"	v
+metodo	servidor/lib/REST.php	/^            $metodo = $request['metodo'];$/;"	v
+metodo	servidor/lib/REST.php	/^        $metodo = "saludo";$/;"	v
+mi_cliente	cliente/lib/mi_cliente.php	/^class mi_cliente extends CL_REST {$/;"	c
+mi_cliente	lib/mi_cliente.php	/^class mi_cliente extends CL_REST {$/;"	c
+mi_cliente	servidor/lib/mi_cliente.php	/^class mi_cliente extends CL_REST {$/;"	c
+mi_servicio	cliente/lib/mi_servicio.php	/^class mi_servicio extends SR_REST {$/;"	c
+mi_servicio	lib/mi_servicio.php	/^class mi_servicio extends SR_REST {$/;"	c
+mi_servicio	servidor/lib/mi_servicio.php	/^class mi_servicio extends SR_REST {$/;"	c
+milliseconds	cliente/lib/REST.php	/^            $milliseconds = $seconds * 1000;$/;"	v
+milliseconds	lib/REST.php	/^            $milliseconds = $seconds * 1000;$/;"	v
+milliseconds	servidor/lib/REST.php	/^            $milliseconds = $seconds * 1000;$/;"	v
+minutes	cliente/lib/REST.php	/^            $minutes = $intervalo->format('%i');$/;"	v
+minutes	lib/REST.php	/^            $minutes = $intervalo->format('%i');$/;"	v
+minutes	servidor/lib/REST.php	/^            $minutes = $intervalo->format('%i');$/;"	v
+minutos	cliente/lib/REST.php	/^            $minutos = 24 * 60 * $qdias + 60 * $qhoras + $qminutos;$/;"	v
+minutos	lib/REST.php	/^            $minutos = 24 * 60 * $qdias + 60 * $qhoras + $qminutos;$/;"	v
+minutos	servidor/lib/REST.php	/^            $minutos = 24 * 60 * $qdias + 60 * $qhoras + $qminutos;$/;"	v
+months	cliente/lib/REST.php	/^            $months = 0;$/;"	v
+months	lib/REST.php	/^            $months = 0;$/;"	v
+months	servidor/lib/REST.php	/^            $months = 0;$/;"	v
+nom_metodo	cliente/lib/REST.php	/^            $nom_metodo = "M_REST_".$metodo;$/;"	v
+nom_metodo	lib/REST.php	/^            $nom_metodo = "M_REST_".$metodo;$/;"	v
+nom_metodo	servidor/lib/REST.php	/^            $nom_metodo = "M_REST_".$metodo;$/;"	v
+nombre_base	cliente/lib/cifrado_RSA.php	/^                        , $nombre_base = "rsa_key", $tipo_huella = "sha512")$/;"	v
+nombre_base	cliente/lib/cifrado_RSA.php	/^                        , $nombre_base = "rsa_key", $tipo_huella = "sha512", $depurando = false)$/;"	v
+nombre_base	cliente/lib/cifrado_RSA.php	/^            $nombre_base = $this->nombre_base;$/;"	v
+nombre_base	cliente/lib/cifrado_RSA.php	/^            $this->nombre_base = $nombre_base;$/;"	v
+nombre_base	cliente/lib/cifrado_RSA.php	/^        $this->nombre_base = null;$/;"	v
+nombre_base	cliente/lib/cifrado_RSA.php	/^    private $nombre_base; \/*!< \\var El nombre que deberán tener los archivos .crt y .pem *\/$/;"	v
+nombre_base	cliente/lib/cifrado_RSA_funciona.php	/^            $nombre_base = $this->nombre_base;$/;"	v
+nombre_base	cliente/lib/cifrado_RSA_funciona.php	/^            $this->nombre_base = $nombre_base;$/;"	v
+nombre_base	cliente/lib/cifrado_RSA_funciona.php	/^        $this->nombre_base = null;$/;"	v
+nombre_base	cliente/lib/cifrado_RSA_funciona.php	/^    private $nombre_base; \/\/ El nombre que deberán tener los archivos .crt y .pem$/;"	v
+nombre_base	lib/cifrado_RSA.php	/^                        , $nombre_base = "rsa_key", $tipo_huella = "sha512")$/;"	v
+nombre_base	lib/cifrado_RSA.php	/^                        , $nombre_base = "rsa_key", $tipo_huella = "sha512", $depurando = false)$/;"	v
+nombre_base	lib/cifrado_RSA.php	/^            $nombre_base = $this->nombre_base;$/;"	v
+nombre_base	lib/cifrado_RSA.php	/^            $this->nombre_base = $nombre_base;$/;"	v
+nombre_base	lib/cifrado_RSA.php	/^        $this->nombre_base = null;$/;"	v
+nombre_base	lib/cifrado_RSA.php	/^    private $nombre_base; \/*!< \\var El nombre que deberán tener los archivos .crt y .pem *\/$/;"	v
+nombre_base	lib/cifrado_RSA_funciona.php	/^            $nombre_base = $this->nombre_base;$/;"	v
+nombre_base	lib/cifrado_RSA_funciona.php	/^            $this->nombre_base = $nombre_base;$/;"	v
+nombre_base	lib/cifrado_RSA_funciona.php	/^        $this->nombre_base = null;$/;"	v
+nombre_base	lib/cifrado_RSA_funciona.php	/^    private $nombre_base; \/\/ El nombre que deberán tener los archivos .crt y .pem$/;"	v
+nombre_base	servidor/lib/cifrado_RSA.php	/^                        , $nombre_base = "rsa_key", $tipo_huella = "sha512")$/;"	v
+nombre_base	servidor/lib/cifrado_RSA.php	/^                        , $nombre_base = "rsa_key", $tipo_huella = "sha512", $depurando = false)$/;"	v
+nombre_base	servidor/lib/cifrado_RSA.php	/^            $nombre_base = $this->nombre_base;$/;"	v
+nombre_base	servidor/lib/cifrado_RSA.php	/^            $this->nombre_base = $nombre_base;$/;"	v
+nombre_base	servidor/lib/cifrado_RSA.php	/^        $this->nombre_base = null;$/;"	v
+nombre_base	servidor/lib/cifrado_RSA.php	/^    private $nombre_base; \/*!< \\var El nombre que deberán tener los archivos .crt y .pem *\/$/;"	v
+nombre_base	servidor/lib/cifrado_RSA_funciona.php	/^            $nombre_base = $this->nombre_base;$/;"	v
+nombre_base	servidor/lib/cifrado_RSA_funciona.php	/^            $this->nombre_base = $nombre_base;$/;"	v
+nombre_base	servidor/lib/cifrado_RSA_funciona.php	/^        $this->nombre_base = null;$/;"	v
+nombre_base	servidor/lib/cifrado_RSA_funciona.php	/^    private $nombre_base; \/\/ El nombre que deberán tener los archivos .crt y .pem$/;"	v
+parametros	cliente/lib/REST.php	/^            $parametros = "?metodo=autenticar";$/;"	v
+parametros	cliente/lib/REST.php	/^    public function solicitar($metodo, $parametros = array())$/;"	v
+parametros	lib/REST.php	/^            $parametros = "?metodo=autenticar";$/;"	v
+parametros	lib/REST.php	/^    public function solicitar($metodo, $parametros = array())$/;"	v
+parametros	servidor/lib/REST.php	/^            $parametros = "?metodo=autenticar";$/;"	v
+parametros	servidor/lib/REST.php	/^    public function solicitar($metodo, $parametros = array())$/;"	v
+parcial	cliente/lib/cifrado_RSA.php	/^                    $parcial = '';$/;"	v
+parcial	cliente/lib/cifrado_RSA.php	/^                $parcial = '';$/;"	v
+parcial	cliente/lib/cifrado_RSA.php	/^            $parcial = '';$/;"	v
+parcial	cliente/lib/cifrado_RSA_funciona.php	/^                $parcial = '';$/;"	v
+parcial	cliente/lib/cifrado_RSA_funciona.php	/^            $parcial = '';$/;"	v
+parcial	lib/cifrado_RSA.php	/^                    $parcial = '';$/;"	v
+parcial	lib/cifrado_RSA.php	/^                $parcial = '';$/;"	v
+parcial	lib/cifrado_RSA.php	/^            $parcial = '';$/;"	v
+parcial	lib/cifrado_RSA_funciona.php	/^                $parcial = '';$/;"	v
+parcial	lib/cifrado_RSA_funciona.php	/^            $parcial = '';$/;"	v
+parcial	servidor/lib/cifrado_RSA.php	/^                    $parcial = '';$/;"	v
+parcial	servidor/lib/cifrado_RSA.php	/^                $parcial = '';$/;"	v
+parcial	servidor/lib/cifrado_RSA.php	/^            $parcial = '';$/;"	v
+parcial	servidor/lib/cifrado_RSA_funciona.php	/^                $parcial = '';$/;"	v
+parcial	servidor/lib/cifrado_RSA_funciona.php	/^            $parcial = '';$/;"	v
+periodo2unidades	cliente/lib/REST.php	/^function periodo2unidades($intervalo, $tipo)$/;"	f
+periodo2unidades	lib/REST.php	/^function periodo2unidades($intervalo, $tipo)$/;"	f
+periodo2unidades	servidor/lib/REST.php	/^function periodo2unidades($intervalo, $tipo)$/;"	f
+pubkey	cliente/lib/mi_cliente.php	/^            $pubkey = array_pop($llavero[$hash]);$/;"	v
+pubkey	cliente/lib/mi_cliente.php	/^        $pubkey = null;$/;"	v
+pubkey	cliente/lib/mi_servicio.php	/^                $pubkey = array_pop($llavero[$hash][1]);$/;"	v
+pubkey	cliente/lib/mi_servicio.php	/^        $pubkey = null;$/;"	v
+pubkey	lib/mi_cliente.php	/^            $pubkey = array_pop($llavero[$hash]);$/;"	v
+pubkey	lib/mi_cliente.php	/^        $pubkey = null;$/;"	v
+pubkey	lib/mi_servicio.php	/^                $pubkey = array_pop($llavero[$hash][1]);$/;"	v
+pubkey	lib/mi_servicio.php	/^        $pubkey = null;$/;"	v
+pubkey	servidor/lib/mi_cliente.php	/^            $pubkey = array_pop($llavero[$hash]);$/;"	v
+pubkey	servidor/lib/mi_cliente.php	/^        $pubkey = null;$/;"	v
+pubkey	servidor/lib/mi_servicio.php	/^                $pubkey = array_pop($llavero[$hash][1]);$/;"	v
+pubkey	servidor/lib/mi_servicio.php	/^        $pubkey = null;$/;"	v
+qdias	cliente/lib/REST.php	/^                $qdias = 0;$/;"	v
+qdias	cliente/lib/REST.php	/^            $qdias = $intervalo->format('%a');$/;"	v
+qdias	lib/REST.php	/^                $qdias = 0;$/;"	v
+qdias	lib/REST.php	/^            $qdias = $intervalo->format('%a');$/;"	v
+qdias	servidor/lib/REST.php	/^                $qdias = 0;$/;"	v
+qdias	servidor/lib/REST.php	/^            $qdias = $intervalo->format('%a');$/;"	v
+qhoras	cliente/lib/REST.php	/^                $qhoras = 0;$/;"	v
+qhoras	cliente/lib/REST.php	/^            $qhoras = $intervalo->format('%H');$/;"	v
+qhoras	lib/REST.php	/^                $qhoras = 0;$/;"	v
+qhoras	lib/REST.php	/^            $qhoras = $intervalo->format('%H');$/;"	v
+qhoras	servidor/lib/REST.php	/^                $qhoras = 0;$/;"	v
+qhoras	servidor/lib/REST.php	/^            $qhoras = $intervalo->format('%H');$/;"	v
+qminutos	cliente/lib/REST.php	/^            $qminutos = $intervalo->format('%i');$/;"	v
+qminutos	lib/REST.php	/^            $qminutos = $intervalo->format('%i');$/;"	v
+qminutos	servidor/lib/REST.php	/^            $qminutos = $intervalo->format('%i');$/;"	v
+refrescar	cliente/lib/REST.php	/^        $refrescar = array();$/;"	v
+refrescar	cliente/lib/cifrado_RSA.php	/^                    $refrescar = true;$/;"	v
+refrescar	cliente/lib/cifrado_RSA.php	/^            $refrescar = false;$/;"	v
+refrescar	cliente/lib/cifrado_RSA.php	/^        $this->refrescar = false;$/;"	v
+refrescar	lib/REST.php	/^        $refrescar = array();$/;"	v
+refrescar	lib/cifrado_RSA.php	/^                    $refrescar = true;$/;"	v
+refrescar	lib/cifrado_RSA.php	/^            $refrescar = false;$/;"	v
+refrescar	lib/cifrado_RSA.php	/^        $this->refrescar = false;$/;"	v
+refrescar	servidor/lib/REST.php	/^        $refrescar = array();$/;"	v
+refrescar	servidor/lib/cifrado_RSA.php	/^                    $refrescar = true;$/;"	v
+refrescar	servidor/lib/cifrado_RSA.php	/^            $refrescar = false;$/;"	v
+refrescar	servidor/lib/cifrado_RSA.php	/^        $this->refrescar = false;$/;"	v
+refrescar_llaves_RSA	cliente/lib/cifrado_RSA_funciona.php	/^    function refrescar_llaves_RSA()$/;"	f
+refrescar_llaves_RSA	lib/cifrado_RSA_funciona.php	/^    function refrescar_llaves_RSA()$/;"	f
+refrescar_llaves_RSA	servidor/lib/cifrado_RSA_funciona.php	/^    function refrescar_llaves_RSA()$/;"	f
+respuesta	cliente/cliente.php	/^$respuesta = $cliente->solicitar("existen_procesos_asociados", $parametros);$/;"	v
+respuesta	cliente/lib/REST.php	/^                $respuesta = $this->rsa->descifrar($respuesta);$/;"	v
+respuesta	cliente/lib/REST.php	/^                $respuesta = json_decode($respuesta);$/;"	v
+respuesta	cliente/lib/REST.php	/^            $respuesta = conexionREST::solicitar_url($url.$datos);$/;"	v
+respuesta	cliente/lib/REST.php	/^            $respuesta = conexionREST::solicitar_url($url.$parametros.$datos);$/;"	v
+respuesta	cliente/lib/REST.php	/^        $respuesta = conexionREST::solicitar_url($url);$/;"	v
+respuesta	cliente/lib/REST.php	/^        $respuesta = conexionREST::solicitar_url($url.$datos);$/;"	v
+respuesta	cliente/lib/REST.php	/^        $respuesta = json_decode($respuesta);$/;"	v
+respuesta	lib/REST.php	/^                $respuesta = $this->rsa->descifrar($respuesta);$/;"	v
+respuesta	lib/REST.php	/^                $respuesta = json_decode($respuesta);$/;"	v
+respuesta	lib/REST.php	/^            $respuesta = conexionREST::solicitar_url($url.$datos);$/;"	v
+respuesta	lib/REST.php	/^            $respuesta = conexionREST::solicitar_url($url.$parametros.$datos);$/;"	v
+respuesta	lib/REST.php	/^        $respuesta = conexionREST::solicitar_url($url);$/;"	v
+respuesta	lib/REST.php	/^        $respuesta = conexionREST::solicitar_url($url.$datos);$/;"	v
+respuesta	lib/REST.php	/^        $respuesta = json_decode($respuesta);$/;"	v
+respuesta	servidor/lib/REST.php	/^                $respuesta = $this->rsa->descifrar($respuesta);$/;"	v
+respuesta	servidor/lib/REST.php	/^                $respuesta = json_decode($respuesta);$/;"	v
+respuesta	servidor/lib/REST.php	/^            $respuesta = conexionREST::solicitar_url($url.$datos);$/;"	v
+respuesta	servidor/lib/REST.php	/^            $respuesta = conexionREST::solicitar_url($url.$parametros.$datos);$/;"	v
+respuesta	servidor/lib/REST.php	/^        $respuesta = conexionREST::solicitar_url($url);$/;"	v
+respuesta	servidor/lib/REST.php	/^        $respuesta = conexionREST::solicitar_url($url.$datos);$/;"	v
+respuesta	servidor/lib/REST.php	/^        $respuesta = json_decode($respuesta);$/;"	v
+respuesta	servidor/servicio.php	/^$respuesta = $servidor->atender($_REQUEST);$/;"	v
+retorno	cliente/lib/REST.php	/^            $retorno = "";$/;"	v
+retorno	cliente/lib/REST.php	/^            $retorno = $this->$nom_metodo($request);$/;"	v
+retorno	cliente/lib/REST.php	/^            $retorno = RSA::cifrar($retorno, $this->ll_cte);$/;"	v
+retorno	cliente/lib/REST.php	/^            $retorno = array( 'autenticado' => false$/;"	v
+retorno	cliente/lib/REST.php	/^            $retorno = array( 'autenticado' => true$/;"	v
+retorno	cliente/lib/REST.php	/^            $retorno = true;$/;"	v
+retorno	cliente/lib/REST.php	/^        $retorno = "";$/;"	v
+retorno	cliente/lib/REST.php	/^        $retorno = array( "pkey"   => $this->rsa->get_ll_publica()$/;"	v
+retorno	cliente/lib/REST.php	/^        $retorno = array( 'autenticado' => false$/;"	v
+retorno	cliente/lib/REST.php	/^        $retorno = array("mensaje" => "Funcionalidad no existente [$nombre]");$/;"	v
+retorno	cliente/lib/REST.php	/^        $retorno = array();$/;"	v
+retorno	cliente/lib/REST.php	/^        $retorno = file_get_contents($url);$/;"	v
+retorno	cliente/lib/REST.php	/^        $retorno = json_encode($retorno);$/;"	v
+retorno	cliente/lib/REST.php	/^    $retorno = "";$/;"	v
+retorno	cliente/lib/autenticacion.php	/^        $retorno = "<div id='FORM_AUTENT'>    $/;"	v
+retorno	cliente/lib/mi_servicio.php	/^            $retorno = "46df87fc5147954c9ca6185a3d029da501619568dcbc"$/;"	v
+retorno	cliente/lib/mi_servicio.php	/^        $retorno = array( 'Qprocesos' => 0$/;"	v
+retorno	cliente/lib/mi_servicio.php	/^        $retorno = null;$/;"	v
+retorno	cliente/lib/mi_servicio.php	/^    \/\/     $retorno = array( 'xxxx' => 0$/;"	v
+retorno	lib/REST.php	/^            $retorno = "";$/;"	v
+retorno	lib/REST.php	/^            $retorno = $this->$nom_metodo($request);$/;"	v
+retorno	lib/REST.php	/^            $retorno = RSA::cifrar($retorno, $this->ll_cte);$/;"	v
+retorno	lib/REST.php	/^            $retorno = array( 'autenticado' => false$/;"	v
+retorno	lib/REST.php	/^            $retorno = array( 'autenticado' => true$/;"	v
+retorno	lib/REST.php	/^            $retorno = true;$/;"	v
+retorno	lib/REST.php	/^        $retorno = "";$/;"	v
+retorno	lib/REST.php	/^        $retorno = array( "pkey"   => $this->rsa->get_ll_publica()$/;"	v
+retorno	lib/REST.php	/^        $retorno = array( 'autenticado' => false$/;"	v
+retorno	lib/REST.php	/^        $retorno = array("mensaje" => "Funcionalidad no existente [$nombre]");$/;"	v
+retorno	lib/REST.php	/^        $retorno = array();$/;"	v
+retorno	lib/REST.php	/^        $retorno = file_get_contents($url);$/;"	v
+retorno	lib/REST.php	/^        $retorno = json_encode($retorno);$/;"	v
+retorno	lib/REST.php	/^    $retorno = "";$/;"	v
+retorno	lib/autenticacion.php	/^        $retorno = "<div id='FORM_AUTENT'>    $/;"	v
+retorno	lib/mi_servicio.php	/^            $retorno = "46df87fc5147954c9ca6185a3d029da501619568dcbc"$/;"	v
+retorno	lib/mi_servicio.php	/^        $retorno = array( 'Qprocesos' => 0$/;"	v
+retorno	lib/mi_servicio.php	/^        $retorno = null;$/;"	v
+retorno	lib/mi_servicio.php	/^    \/\/     $retorno = array( 'xxxx' => 0$/;"	v
+retorno	servidor/lib/REST.php	/^            $retorno = "";$/;"	v
+retorno	servidor/lib/REST.php	/^            $retorno = $this->$nom_metodo($request);$/;"	v
+retorno	servidor/lib/REST.php	/^            $retorno = RSA::cifrar($retorno, $this->ll_cte);$/;"	v
+retorno	servidor/lib/REST.php	/^            $retorno = array( 'autenticado' => false$/;"	v
+retorno	servidor/lib/REST.php	/^            $retorno = array( 'autenticado' => true$/;"	v
+retorno	servidor/lib/REST.php	/^            $retorno = true;$/;"	v
+retorno	servidor/lib/REST.php	/^        $retorno = "";$/;"	v
+retorno	servidor/lib/REST.php	/^        $retorno = array( "pkey"   => $this->rsa->get_ll_publica()$/;"	v
+retorno	servidor/lib/REST.php	/^        $retorno = array( 'autenticado' => false$/;"	v
+retorno	servidor/lib/REST.php	/^        $retorno = array("mensaje" => "Funcionalidad no existente [$nombre]");$/;"	v
+retorno	servidor/lib/REST.php	/^        $retorno = array();$/;"	v
+retorno	servidor/lib/REST.php	/^        $retorno = file_get_contents($url);$/;"	v
+retorno	servidor/lib/REST.php	/^        $retorno = json_encode($retorno);$/;"	v
+retorno	servidor/lib/REST.php	/^    $retorno = "";$/;"	v
+retorno	servidor/lib/autenticacion.php	/^        $retorno = "<div id='FORM_AUTENT'>    $/;"	v
+retorno	servidor/lib/mi_servicio.php	/^            $retorno = "46df87fc5147954c9ca6185a3d029da501619568dcbc"$/;"	v
+retorno	servidor/lib/mi_servicio.php	/^        $retorno = array( 'Qprocesos' => 0$/;"	v
+retorno	servidor/lib/mi_servicio.php	/^        $retorno = null;$/;"	v
+retorno	servidor/lib/mi_servicio.php	/^    \/\/     $retorno = array( 'xxxx' => 0$/;"	v
+rsa	cliente/lib/REST.php	/^            $this->rsa     = new RSA($duracion, $directorio."\/prv", "REST_key", "sha512", $this->depurando);$/;"	v
+rsa	cliente/lib/REST.php	/^            $this->rsa = new RSA($duracion, $directorio."\/prv", "REST_key", "sha512", $this->depurando);$/;"	v
+rsa	cliente/lib/REST.php	/^    private $rsa;          \/\/!< El objeto para cifrar con RSA.$/;"	v
+rsa	cliente/lib/REST.php	/^    private $rsa;        \/\/!< El objeto para cifrar con RSA los datos$/;"	v
+rsa	lib/REST.php	/^            $this->rsa     = new RSA($duracion, $directorio."\/prv", "REST_key", "sha512", $this->depurando);$/;"	v
+rsa	lib/REST.php	/^            $this->rsa = new RSA($duracion, $directorio."\/prv", "REST_key", "sha512", $this->depurando);$/;"	v
+rsa	lib/REST.php	/^    private $rsa;          \/\/!< El objeto para cifrar con RSA.$/;"	v
+rsa	lib/REST.php	/^    private $rsa;        \/\/!< El objeto para cifrar con RSA los datos$/;"	v
+rsa	servidor/lib/REST.php	/^            $this->rsa     = new RSA($duracion, $directorio."\/prv", "REST_key", "sha512", $this->depurando);$/;"	v
+rsa	servidor/lib/REST.php	/^            $this->rsa = new RSA($duracion, $directorio."\/prv", "REST_key", "sha512", $this->depurando);$/;"	v
+rsa	servidor/lib/REST.php	/^    private $rsa;          \/\/!< El objeto para cifrar con RSA.$/;"	v
+rsa	servidor/lib/REST.php	/^    private $rsa;        \/\/!< El objeto para cifrar con RSA los datos$/;"	v
+ruta_base	cliente/lib/cifrado_RSA.php	/^                $ruta_base = $directorio."\/".$nombre_base;$/;"	v
+ruta_base	cliente/lib/cifrado_RSA.php	/^        $ruta_base = $this->directorio."\/".$this->nombre_base;$/;"	v
+ruta_base	cliente/lib/cifrado_RSA_funciona.php	/^                $ruta_base = $directorio."\/".$nombre_base;$/;"	v
+ruta_base	cliente/lib/cifrado_RSA_funciona.php	/^        $ruta_base = $this->directorio."\/".$this->nombre_base;$/;"	v
+ruta_base	lib/cifrado_RSA.php	/^                $ruta_base = $directorio."\/".$nombre_base;$/;"	v
+ruta_base	lib/cifrado_RSA.php	/^        $ruta_base = $this->directorio."\/".$this->nombre_base;$/;"	v
+ruta_base	lib/cifrado_RSA_funciona.php	/^                $ruta_base = $directorio."\/".$nombre_base;$/;"	v
+ruta_base	lib/cifrado_RSA_funciona.php	/^        $ruta_base = $this->directorio."\/".$this->nombre_base;$/;"	v
+ruta_base	servidor/lib/cifrado_RSA.php	/^                $ruta_base = $directorio."\/".$nombre_base;$/;"	v
+ruta_base	servidor/lib/cifrado_RSA.php	/^        $ruta_base = $this->directorio."\/".$this->nombre_base;$/;"	v
+ruta_base	servidor/lib/cifrado_RSA_funciona.php	/^                $ruta_base = $directorio."\/".$nombre_base;$/;"	v
+ruta_base	servidor/lib/cifrado_RSA_funciona.php	/^        $ruta_base = $this->directorio."\/".$this->nombre_base;$/;"	v
+script_enviar	cliente/lib/autenticacion.php	/^        $script_enviar = "$/;"	v
+script_enviar	lib/autenticacion.php	/^        $script_enviar = "$/;"	v
+script_enviar	servidor/lib/autenticacion.php	/^        $script_enviar = "$/;"	v
+seconds	cliente/lib/REST.php	/^            $seconds = 0;$/;"	v
+seconds	lib/REST.php	/^            $seconds = 0;$/;"	v
+seconds	servidor/lib/REST.php	/^            $seconds = 0;$/;"	v
+segundos	cliente/lib/cifrado_RSA.php	/^        $segundos = $this->duracion;$/;"	v
+segundos	cliente/lib/cifrado_RSA_funciona.php	/^        $segundos = $this->duracion;$/;"	v
+segundos	lib/cifrado_RSA.php	/^        $segundos = $this->duracion;$/;"	v
+segundos	lib/cifrado_RSA_funciona.php	/^        $segundos = $this->duracion;$/;"	v
+segundos	servidor/lib/cifrado_RSA.php	/^        $segundos = $this->duracion;$/;"	v
+segundos	servidor/lib/cifrado_RSA_funciona.php	/^        $segundos = $this->duracion;$/;"	v
+sellado	cliente/lib/cifrado_RSA.php	/^    function firmar($mensaje, $sellado = false, $usar_old = false)$/;"	v
+sellado	lib/cifrado_RSA.php	/^    function firmar($mensaje, $sellado = false, $usar_old = false)$/;"	v
+sellado	servidor/lib/cifrado_RSA.php	/^    function firmar($mensaje, $sellado = false, $usar_old = false)$/;"	v
+servidor	servidor/servicio.php	/^$servidor = new mi_servicio(__DIR__, null, 300, $depurando);$/;"	v
+servidorREST	cliente/lib/REST.php	/^abstract class servidorREST {$/;"	c
+servidorREST	lib/REST.php	/^abstract class servidorREST {$/;"	c
+servidorREST	servidor/lib/REST.php	/^abstract class servidorREST {$/;"	c
+sesion	cliente/lib/REST.php	/^                        $this->sesion = $llave->sesion;$/;"	v
+sesion	cliente/lib/REST.php	/^                    $this->sesion = $sesion;$/;"	v
+sesion	cliente/lib/REST.php	/^                $this->sesion = $respuesta->sesion;$/;"	v
+sesion	cliente/lib/REST.php	/^                $this->sesion = null;$/;"	v
+sesion	cliente/lib/REST.php	/^            $this->sesion = $sesion;$/;"	v
+sesion	cliente/lib/REST.php	/^        $sesion = uniqid();$/;"	v
+sesion	cliente/lib/REST.php	/^        $this->sesion = $sesion;$/;"	v
+sesion	cliente/lib/REST.php	/^        $this->sesion = null;$/;"	v
+sesion	cliente/lib/REST.php	/^    function __construct($directorio, $sesion = null, $duracion = 300, $depurando = false)$/;"	v
+sesion	cliente/lib/REST.php	/^    private $sesion;       \/\/!< Cadena que identifica la sesión establecida.$/;"	v
+sesion	cliente/lib/REST.php	/^    private $sesion;     \/\/!< El identificador de sesión.$/;"	v
+sesion	cliente/lib/mi_cliente.php	/^            $sesion = array_key_last($llavero[$hash]);$/;"	v
+sesion	cliente/lib/mi_cliente.php	/^        $sesion = null;$/;"	v
+sesion	cliente/lib/mi_cliente.php	/^        foreach ($llavero[$hash] as $sesion => $valor) {$/;"	v
+sesion	cliente/lib/mi_servicio.php	/^        foreach ($llavero as $sesion => $valor)$/;"	v
+sesion	lib/REST.php	/^                        $this->sesion = $llave->sesion;$/;"	v
+sesion	lib/REST.php	/^                    $this->sesion = $sesion;$/;"	v
+sesion	lib/REST.php	/^                $this->sesion = $respuesta->sesion;$/;"	v
+sesion	lib/REST.php	/^                $this->sesion = null;$/;"	v
+sesion	lib/REST.php	/^            $this->sesion = $sesion;$/;"	v
+sesion	lib/REST.php	/^        $sesion = uniqid();$/;"	v
+sesion	lib/REST.php	/^        $this->sesion = $sesion;$/;"	v
+sesion	lib/REST.php	/^        $this->sesion = null;$/;"	v
+sesion	lib/REST.php	/^    function __construct($directorio, $sesion = null, $duracion = 300, $depurando = false)$/;"	v
+sesion	lib/REST.php	/^    private $sesion;       \/\/!< Cadena que identifica la sesión establecida.$/;"	v
+sesion	lib/REST.php	/^    private $sesion;     \/\/!< El identificador de sesión.$/;"	v
+sesion	lib/mi_cliente.php	/^            $sesion = array_key_last($llavero[$hash]);$/;"	v
+sesion	lib/mi_cliente.php	/^        $sesion = null;$/;"	v
+sesion	lib/mi_cliente.php	/^        foreach ($llavero[$hash] as $sesion => $valor) {$/;"	v
+sesion	lib/mi_servicio.php	/^        foreach ($llavero as $sesion => $valor)$/;"	v
+sesion	servidor/lib/REST.php	/^                        $this->sesion = $llave->sesion;$/;"	v
+sesion	servidor/lib/REST.php	/^                    $this->sesion = $sesion;$/;"	v
+sesion	servidor/lib/REST.php	/^                $this->sesion = $respuesta->sesion;$/;"	v
+sesion	servidor/lib/REST.php	/^                $this->sesion = null;$/;"	v
+sesion	servidor/lib/REST.php	/^            $this->sesion = $sesion;$/;"	v
+sesion	servidor/lib/REST.php	/^        $sesion = uniqid();$/;"	v
+sesion	servidor/lib/REST.php	/^        $this->sesion = $sesion;$/;"	v
+sesion	servidor/lib/REST.php	/^        $this->sesion = null;$/;"	v
+sesion	servidor/lib/REST.php	/^    function __construct($directorio, $sesion = null, $duracion = 300, $depurando = false)$/;"	v
+sesion	servidor/lib/REST.php	/^    private $sesion;       \/\/!< Cadena que identifica la sesión establecida.$/;"	v
+sesion	servidor/lib/REST.php	/^    private $sesion;     \/\/!< El identificador de sesión.$/;"	v
+sesion	servidor/lib/mi_cliente.php	/^            $sesion = array_key_last($llavero[$hash]);$/;"	v
+sesion	servidor/lib/mi_cliente.php	/^        $sesion = null;$/;"	v
+sesion	servidor/lib/mi_cliente.php	/^        foreach ($llavero[$hash] as $sesion => $valor) {$/;"	v
+sesion	servidor/lib/mi_servicio.php	/^        foreach ($llavero as $sesion => $valor)$/;"	v
+sesion_id	cliente/lib/REST.php	/^            $sesion_id = uniqid();$/;"	v
+sesion_id	lib/REST.php	/^            $sesion_id = uniqid();$/;"	v
+sesion_id	servidor/lib/REST.php	/^            $sesion_id = uniqid();$/;"	v
+sin_antiguas	cliente/lib/mi_cliente.php	/^        $sin_antiguas = array();$/;"	v
+sin_antiguas	cliente/lib/mi_servicio.php	/^        $sin_antiguas = array();$/;"	v
+sin_antiguas	lib/mi_cliente.php	/^        $sin_antiguas = array();$/;"	v
+sin_antiguas	lib/mi_servicio.php	/^        $sin_antiguas = array();$/;"	v
+sin_antiguas	servidor/lib/mi_cliente.php	/^        $sin_antiguas = array();$/;"	v
+sin_antiguas	servidor/lib/mi_servicio.php	/^        $sin_antiguas = array();$/;"	v
+solicitar	cliente/lib/REST.php	/^    public function solicitar($metodo, $parametros = array())$/;"	f
+solicitar	lib/REST.php	/^    public function solicitar($metodo, $parametros = array())$/;"	f
+solicitar	servidor/lib/REST.php	/^    public function solicitar($metodo, $parametros = array())$/;"	f
+solicitar_url	cliente/lib/REST.php	/^    public static function solicitar_url($url)$/;"	f
+solicitar_url	lib/REST.php	/^    public static function solicitar_url($url)$/;"	f
+solicitar_url	servidor/lib/REST.php	/^    public static function solicitar_url($url)$/;"	f
+tamanho	cliente/lib/cifrado_RSA.php	/^                                        , $tamanho = 2048, $tipo_huella = "sha512")$/;"	v
+tamanho	cliente/lib/cifrado_RSA.php	/^    private $tamanho = 2048; \/*!< \\var El tamaño en bytes de las llaves *\/$/;"	v
+tamanho	cliente/lib/cifrado_RSA.php	/^    public static function cifrar($mensaje, $ll_publica, $tamanho = 2048)$/;"	v
+tamanho	cliente/lib/cifrado_RSA_funciona.php	/^                                        , $tamanho = 2048, $tipo_huella = "sha512")$/;"	v
+tamanho	cliente/lib/cifrado_RSA_funciona.php	/^    private $tamanho = 2048; \/\/ El tamaño en bytes de las llaves$/;"	v
+tamanho	cliente/lib/cifrado_RSA_funciona.php	/^    public static function cifrar($mensaje, $ll_publica, $tamanho = 2048)$/;"	v
+tamanho	lib/cifrado_RSA.php	/^                                        , $tamanho = 2048, $tipo_huella = "sha512")$/;"	v
+tamanho	lib/cifrado_RSA.php	/^    private $tamanho = 2048; \/*!< \\var El tamaño en bytes de las llaves *\/$/;"	v
+tamanho	lib/cifrado_RSA.php	/^    public static function cifrar($mensaje, $ll_publica, $tamanho = 2048)$/;"	v
+tamanho	lib/cifrado_RSA_funciona.php	/^                                        , $tamanho = 2048, $tipo_huella = "sha512")$/;"	v
+tamanho	lib/cifrado_RSA_funciona.php	/^    private $tamanho = 2048; \/\/ El tamaño en bytes de las llaves$/;"	v
+tamanho	lib/cifrado_RSA_funciona.php	/^    public static function cifrar($mensaje, $ll_publica, $tamanho = 2048)$/;"	v
+tamanho	servidor/lib/cifrado_RSA.php	/^                                        , $tamanho = 2048, $tipo_huella = "sha512")$/;"	v
+tamanho	servidor/lib/cifrado_RSA.php	/^    private $tamanho = 2048; \/*!< \\var El tamaño en bytes de las llaves *\/$/;"	v
+tamanho	servidor/lib/cifrado_RSA.php	/^    public static function cifrar($mensaje, $ll_publica, $tamanho = 2048)$/;"	v
+tamanho	servidor/lib/cifrado_RSA_funciona.php	/^                                        , $tamanho = 2048, $tipo_huella = "sha512")$/;"	v
+tamanho	servidor/lib/cifrado_RSA_funciona.php	/^    private $tamanho = 2048; \/\/ El tamaño en bytes de las llaves$/;"	v
+tamanho	servidor/lib/cifrado_RSA_funciona.php	/^    public static function cifrar($mensaje, $ll_publica, $tamanho = 2048)$/;"	v
+texto	cliente/cliente.php	/^function Mostrar($dato, $texto = "") {$/;"	v
+texto	servidor/servicio.php	/^function Mostrar($dato, $texto = "") {$/;"	v
+timeout	cliente/lib/REST.php	/^            $this->timeout = $duracion;$/;"	v
+timeout	cliente/lib/REST.php	/^    private $timeout;      \/\/!< El intervalo de tiempo máximo entre la petición del cliente$/;"	v
+timeout	cliente/lib/autenticacion.php	/^    function cargar_llaves_RSA($directorio, $nombre_base, $timeout = 300)$/;"	v
+timeout	cliente/lib/cifrado_RSA.php	/^            $timeout = $this->duracion;$/;"	v
+timeout	cliente/lib/cifrado_RSA_funciona.php	/^            $timeout = $this->duracion;$/;"	v
+timeout	lib/REST.php	/^            $this->timeout = $duracion;$/;"	v
+timeout	lib/REST.php	/^    private $timeout;      \/\/!< El intervalo de tiempo máximo entre la petición del cliente$/;"	v
+timeout	lib/autenticacion.php	/^    function cargar_llaves_RSA($directorio, $nombre_base, $timeout = 300)$/;"	v
+timeout	lib/cifrado_RSA.php	/^            $timeout = $this->duracion;$/;"	v
+timeout	lib/cifrado_RSA_funciona.php	/^            $timeout = $this->duracion;$/;"	v
+timeout	servidor/lib/REST.php	/^            $this->timeout = $duracion;$/;"	v
+timeout	servidor/lib/REST.php	/^    private $timeout;      \/\/!< El intervalo de tiempo máximo entre la petición del cliente$/;"	v
+timeout	servidor/lib/autenticacion.php	/^    function cargar_llaves_RSA($directorio, $nombre_base, $timeout = 300)$/;"	v
+timeout	servidor/lib/cifrado_RSA.php	/^            $timeout = $this->duracion;$/;"	v
+timeout	servidor/lib/cifrado_RSA_funciona.php	/^            $timeout = $this->duracion;$/;"	v
+tipo_huella	cliente/lib/cifrado_RSA.php	/^            $this->tipo_huella = $tipo_huella;$/;"	v
+tipo_huella	cliente/lib/cifrado_RSA.php	/^        $this->tipo_huella = "sha512";$/;"	v
+tipo_huella	cliente/lib/cifrado_RSA.php	/^    private $tipo_huella; \/*!< \\var el mecanismo HASH que se utilizará. *\/$/;"	v
+tipo_huella	cliente/lib/cifrado_RSA_funciona.php	/^            $this->tipo_huella = $tipo_huella;$/;"	v
+tipo_huella	cliente/lib/cifrado_RSA_funciona.php	/^        $this->tipo_huella = "sha512";$/;"	v
+tipo_huella	cliente/lib/cifrado_RSA_funciona.php	/^    private $tipo_huella; \/\/ el mecanismo HASH que se utilizará.$/;"	v
+tipo_huella	lib/cifrado_RSA.php	/^            $this->tipo_huella = $tipo_huella;$/;"	v
+tipo_huella	lib/cifrado_RSA.php	/^        $this->tipo_huella = "sha512";$/;"	v
+tipo_huella	lib/cifrado_RSA.php	/^    private $tipo_huella; \/*!< \\var el mecanismo HASH que se utilizará. *\/$/;"	v
+tipo_huella	lib/cifrado_RSA_funciona.php	/^            $this->tipo_huella = $tipo_huella;$/;"	v
+tipo_huella	lib/cifrado_RSA_funciona.php	/^        $this->tipo_huella = "sha512";$/;"	v
+tipo_huella	lib/cifrado_RSA_funciona.php	/^    private $tipo_huella; \/\/ el mecanismo HASH que se utilizará.$/;"	v
+tipo_huella	servidor/lib/cifrado_RSA.php	/^            $this->tipo_huella = $tipo_huella;$/;"	v
+tipo_huella	servidor/lib/cifrado_RSA.php	/^        $this->tipo_huella = "sha512";$/;"	v
+tipo_huella	servidor/lib/cifrado_RSA.php	/^    private $tipo_huella; \/*!< \\var el mecanismo HASH que se utilizará. *\/$/;"	v
+tipo_huella	servidor/lib/cifrado_RSA_funciona.php	/^            $this->tipo_huella = $tipo_huella;$/;"	v
+tipo_huella	servidor/lib/cifrado_RSA_funciona.php	/^        $this->tipo_huella = "sha512";$/;"	v
+tipo_huella	servidor/lib/cifrado_RSA_funciona.php	/^    private $tipo_huella; \/\/ el mecanismo HASH que se utilizará.$/;"	v
+trace	cliente/lib/REST.php	/^    $trace = array_reverse($trace);$/;"	v
+trace	cliente/lib/REST.php	/^    $trace = debug_backtrace();$/;"	v
+trace	lib/REST.php	/^    $trace = array_reverse($trace);$/;"	v
+trace	lib/REST.php	/^    $trace = debug_backtrace();$/;"	v
+trace	servidor/lib/REST.php	/^    $trace = array_reverse($trace);$/;"	v
+trace	servidor/lib/REST.php	/^    $trace = debug_backtrace();$/;"	v
+traza_de_funciones	cliente/lib/REST.php	/^function traza_de_funciones()$/;"	f
+traza_de_funciones	lib/REST.php	/^function traza_de_funciones()$/;"	f
+traza_de_funciones	servidor/lib/REST.php	/^function traza_de_funciones()$/;"	f
+ultima_modificacion_crt	cliente/lib/cifrado_RSA.php	/^                    $ultima_modificacion_crt = filemtime($archivo.".crt");$/;"	v
+ultima_modificacion_crt	cliente/lib/cifrado_RSA_funciona.php	/^                    $ultima_modificacion_crt = filemtime($archivo.".crt");$/;"	v
+ultima_modificacion_crt	lib/cifrado_RSA.php	/^                    $ultima_modificacion_crt = filemtime($archivo.".crt");$/;"	v
+ultima_modificacion_crt	lib/cifrado_RSA_funciona.php	/^                    $ultima_modificacion_crt = filemtime($archivo.".crt");$/;"	v
+ultima_modificacion_crt	servidor/lib/cifrado_RSA.php	/^                    $ultima_modificacion_crt = filemtime($archivo.".crt");$/;"	v
+ultima_modificacion_crt	servidor/lib/cifrado_RSA_funciona.php	/^                    $ultima_modificacion_crt = filemtime($archivo.".crt");$/;"	v
+ultima_modificacion_pub	cliente/lib/cifrado_RSA.php	/^                    $ultima_modificacion_pub = filemtime($archivo.".pub");$/;"	v
+ultima_modificacion_pub	cliente/lib/cifrado_RSA_funciona.php	/^                    $ultima_modificacion_pub = filemtime($archivo.".pub");$/;"	v
+ultima_modificacion_pub	lib/cifrado_RSA.php	/^                    $ultima_modificacion_pub = filemtime($archivo.".pub");$/;"	v
+ultima_modificacion_pub	lib/cifrado_RSA_funciona.php	/^                    $ultima_modificacion_pub = filemtime($archivo.".pub");$/;"	v
+ultima_modificacion_pub	servidor/lib/cifrado_RSA.php	/^                    $ultima_modificacion_pub = filemtime($archivo.".pub");$/;"	v
+ultima_modificacion_pub	servidor/lib/cifrado_RSA_funciona.php	/^                    $ultima_modificacion_pub = filemtime($archivo.".pub");$/;"	v
+url	cliente/cliente.php	/^$url = "http:\/\/"$/;"	v
+url	cliente/lib/REST.php	/^            $this->url     = $url;$/;"	v
+url	cliente/lib/REST.php	/^        $this->url     = null;$/;"	v
+url	cliente/lib/REST.php	/^        $url = $this->url."?metodo=$metodo".$datos;$/;"	v
+url	cliente/lib/REST.php	/^    public  $url;        \/\/!< El localizador del servicio con el que se establecerá conexión.$/;"	v
+url	lib/REST.php	/^            $this->url     = $url;$/;"	v
+url	lib/REST.php	/^        $this->url     = null;$/;"	v
+url	lib/REST.php	/^        $url = $this->url."?metodo=$metodo".$datos;$/;"	v
+url	lib/REST.php	/^    public  $url;        \/\/!< El localizador del servicio con el que se establecerá conexión.$/;"	v
+url	servidor/lib/REST.php	/^            $this->url     = $url;$/;"	v
+url	servidor/lib/REST.php	/^        $this->url     = null;$/;"	v
+url	servidor/lib/REST.php	/^        $url = $this->url."?metodo=$metodo".$datos;$/;"	v
+url	servidor/lib/REST.php	/^    public  $url;        \/\/!< El localizador del servicio con el que se establecerá conexión.$/;"	v
+validar	cliente/lib/autenticacion.php	/^    protected function validar()$/;"	f
+validar	lib/autenticacion.php	/^    protected function validar()$/;"	f
+validar	servidor/lib/autenticacion.php	/^    protected function validar()$/;"	f
+validar_firma	cliente/lib/cifrado_RSA.php	/^    public static function validar_firma( $mensaje, $firma, $ll_publica$/;"	f
+validar_firma	cliente/lib/cifrado_RSA_funciona.php	/^    public static function validar_firma( $mensaje, $firma, $ll_publica$/;"	f
+validar_firma	lib/cifrado_RSA.php	/^    public static function validar_firma( $mensaje, $firma, $ll_publica$/;"	f
+validar_firma	lib/cifrado_RSA_funciona.php	/^    public static function validar_firma( $mensaje, $firma, $ll_publica$/;"	f
+validar_firma	servidor/lib/cifrado_RSA.php	/^    public static function validar_firma( $mensaje, $firma, $ll_publica$/;"	f
+validar_firma	servidor/lib/cifrado_RSA_funciona.php	/^    public static function validar_firma( $mensaje, $firma, $ll_publica$/;"	f
+valido	cliente/lib/cifrado_RSA.php	/^                        $valido = false;$/;"	v
+valido	cliente/lib/cifrado_RSA.php	/^                    $this->valido = false;$/;"	v
+valido	cliente/lib/cifrado_RSA.php	/^                    $valido = false;$/;"	v
+valido	cliente/lib/cifrado_RSA.php	/^                $valido = true;$/;"	v
+valido	cliente/lib/cifrado_RSA.php	/^            $this->valido = true;$/;"	v
+valido	cliente/lib/cifrado_RSA.php	/^            $valido = true;$/;"	v
+valido	cliente/lib/cifrado_RSA.php	/^        $this->valido = false;$/;"	v
+valido	cliente/lib/cifrado_RSA.php	/^        $valido = false;$/;"	v
+valido	cliente/lib/cifrado_RSA.php	/^    private $valido; \/*!< \\var Centinela que indica si el codificador es válido. *\/$/;"	v
+valido	cliente/lib/cifrado_RSA_funciona.php	/^                    $this->valido = false;$/;"	v
+valido	cliente/lib/cifrado_RSA_funciona.php	/^                    $valido = false;$/;"	v
+valido	cliente/lib/cifrado_RSA_funciona.php	/^                $valido = true;$/;"	v
+valido	cliente/lib/cifrado_RSA_funciona.php	/^            $this->valido = true;$/;"	v
+valido	cliente/lib/cifrado_RSA_funciona.php	/^            $valido = true;$/;"	v
+valido	cliente/lib/cifrado_RSA_funciona.php	/^        $this->valido = false;$/;"	v
+valido	cliente/lib/cifrado_RSA_funciona.php	/^        $valido = false;$/;"	v
+valido	cliente/lib/cifrado_RSA_funciona.php	/^    private $valido; \/\/ Centinela que indica si el codificador es válido.$/;"	v
+valido	lib/cifrado_RSA.php	/^                        $valido = false;$/;"	v
+valido	lib/cifrado_RSA.php	/^                    $this->valido = false;$/;"	v
+valido	lib/cifrado_RSA.php	/^                    $valido = false;$/;"	v
+valido	lib/cifrado_RSA.php	/^                $valido = true;$/;"	v
+valido	lib/cifrado_RSA.php	/^            $this->valido = true;$/;"	v
+valido	lib/cifrado_RSA.php	/^            $valido = true;$/;"	v
+valido	lib/cifrado_RSA.php	/^        $this->valido = false;$/;"	v
+valido	lib/cifrado_RSA.php	/^        $valido = false;$/;"	v
+valido	lib/cifrado_RSA.php	/^    private $valido; \/*!< \\var Centinela que indica si el codificador es válido. *\/$/;"	v
+valido	lib/cifrado_RSA_funciona.php	/^                    $this->valido = false;$/;"	v
+valido	lib/cifrado_RSA_funciona.php	/^                    $valido = false;$/;"	v
+valido	lib/cifrado_RSA_funciona.php	/^                $valido = true;$/;"	v
+valido	lib/cifrado_RSA_funciona.php	/^            $this->valido = true;$/;"	v
+valido	lib/cifrado_RSA_funciona.php	/^            $valido = true;$/;"	v
+valido	lib/cifrado_RSA_funciona.php	/^        $this->valido = false;$/;"	v
+valido	lib/cifrado_RSA_funciona.php	/^        $valido = false;$/;"	v
+valido	lib/cifrado_RSA_funciona.php	/^    private $valido; \/\/ Centinela que indica si el codificador es válido.$/;"	v
+valido	servidor/lib/cifrado_RSA.php	/^                        $valido = false;$/;"	v
+valido	servidor/lib/cifrado_RSA.php	/^                    $this->valido = false;$/;"	v
+valido	servidor/lib/cifrado_RSA.php	/^                    $valido = false;$/;"	v
+valido	servidor/lib/cifrado_RSA.php	/^                $valido = true;$/;"	v
+valido	servidor/lib/cifrado_RSA.php	/^            $this->valido = true;$/;"	v
+valido	servidor/lib/cifrado_RSA.php	/^            $valido = true;$/;"	v
+valido	servidor/lib/cifrado_RSA.php	/^        $this->valido = false;$/;"	v
+valido	servidor/lib/cifrado_RSA.php	/^        $valido = false;$/;"	v
+valido	servidor/lib/cifrado_RSA.php	/^    private $valido; \/*!< \\var Centinela que indica si el codificador es válido. *\/$/;"	v
+valido	servidor/lib/cifrado_RSA_funciona.php	/^                    $this->valido = false;$/;"	v
+valido	servidor/lib/cifrado_RSA_funciona.php	/^                    $valido = false;$/;"	v
+valido	servidor/lib/cifrado_RSA_funciona.php	/^                $valido = true;$/;"	v
+valido	servidor/lib/cifrado_RSA_funciona.php	/^            $this->valido = true;$/;"	v
+valido	servidor/lib/cifrado_RSA_funciona.php	/^            $valido = true;$/;"	v
+valido	servidor/lib/cifrado_RSA_funciona.php	/^        $this->valido = false;$/;"	v
+valido	servidor/lib/cifrado_RSA_funciona.php	/^        $valido = false;$/;"	v
+valido	servidor/lib/cifrado_RSA_funciona.php	/^    private $valido; \/\/ Centinela que indica si el codificador es válido.$/;"	v
+years	cliente/lib/REST.php	/^            $years = $intervalo->format('%Y');$/;"	v
+years	lib/REST.php	/^            $years = $intervalo->format('%Y');$/;"	v
+years	servidor/lib/REST.php	/^            $years = $intervalo->format('%Y');$/;"	v
