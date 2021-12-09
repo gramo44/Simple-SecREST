@@ -312,7 +312,8 @@ abstract class servidorREST {
     private $ll_cte;       //!< La llave pública del cliente que se ha conectado.
     private $timeout;      //!< El intervalo de tiempo máximo entre la petición del cliente
                            //!< y la respuesta del servidor expresada en segundos.
-    private $depurando;  //!< Indica si se permite mostrar letreros de depuración
+    private $depurando;    //!< Indica si se permite mostrar letreros de depuración
+    private $error;        //!< cadena vacía o la descripción de un error si lo hubo
     /*------------------------------------------------------------------*/
     function __construct($directorio, $sesion = null, $duracion = 300, $depurando = false)
     /*********************************************************************
@@ -328,26 +329,26 @@ abstract class servidorREST {
                      que se deban refrescar las llaves de cifrado.
     *********************************************************************/
     {
-        $error = "";
+        $this->error = "";
  
         if ($depurando == false || $depurando == true)
             $this->depurando = $depurando;
 
         $this->sesion = null;
         if (!is_dir($directorio."/prv"))
-            $error .= "$directorio no existe o no es un directorio.\n";
+            $this->error .= "$directorio no existe o no es un directorio.\n";
         else if (!is_writable($directorio."/prv"))
-            $error .= "$directorio no existe o no es un directorio.\n";
+            $this->error .= "$directorio no existe o no es un directorio.\n";
 
         // FALTA VERIFICAR QUE ll_cte sea un identificador de sesión, una
         // llave pública o nulo.
  
         if (!is_int($duracion))
-            $error .= "$duracion debe ser un número entero.\n";
+            $this->error .= "$duracion debe ser un número entero.\n";
         else if ($duracion < 0)
-            $error .= "$duracion debe ser un número positivo.\n";
+            $this->error .= "$duracion debe ser un número positivo.\n";
 
-        if ($error == "") {
+        if ($this->error == "") {
             $this->rsa = new RSA($duracion, $directorio."/prv", "REST_key", "sha512", $this->depurando);
             $this->directorio = $directorio;
             $this->libres = array('metodo', 'll_publica_cliente');
@@ -364,7 +365,9 @@ abstract class servidorREST {
                 $this->ll_cte = null;
             }
             $this->timeout = $duracion;
-        }
+        } else if ($this->depurando)
+            print $this->error;
+
     }
 
 
@@ -435,7 +438,9 @@ abstract class servidorREST {
         // Se interpreta y valida la información
         // que viene en _REQUEST.
         //----------------------------------------
-        list($request, $refrescar) = $this->asegurar_requerimiento($request);
+        $refrescar = array();
+        if ($request != array())
+            list($request, $refrescar) = $this->asegurar_requerimiento($request);
 
         //----------------------------------------
         // Se verifica el método solicitado y se
@@ -545,13 +550,26 @@ abstract class servidorREST {
     /*------------------------------------------------------------------*/
     function M_REST_saludo($request)
     /*********************************************************************
-    @brief Entrega la llave pública de cifrado al cliente.
+    @brief Entrega la llave pública de cifrado del servidor REST al cliente.
     
     ENTRADAS:
     @param $request arreglo asociativo con la información de la requisicion.
-        Este método no la utiliza, llega únicamente por estandarización.
+        campo 'll_publica_cliente': la llave pública del cliente con la cual
+        se va a cifrar la información que se le vaya a enviar en adelante.
     SALIDAS:
-    La llave pública del servicio.
+    Arreglo con la llave pública del servicio y el código de sesión.
+        Si no se provee llave pública retorna ambos valores en vacío.
+
+    ----------------------------------------------------------------------
+    @brief Deliver REST server's public key to client.
+    
+    INPUTS:
+    @param $request associative array with the request information
+        field 'll_publica_cliente': Client's public key used for encrypt
+        the information that will be forwardly sended to the client.
+    OUTPUTS:
+    Array with the public key and the session code
+        If there is no client's public key both values will return null.
     *********************************************************************/
     {
         $retorno = "";
@@ -559,13 +577,18 @@ abstract class servidorREST {
         //----------------------------------------
         // Genera un identificador de sesión y
         //----------------------------------------
-        $sesion = uniqid();
-        $this->guardar_llave_publica_sesion($sesion, $request['ll_publica_cliente']);
-        $this->sesion = $sesion;
-        $this->ll_cte = $request['ll_publica_cliente'];
-        $retorno = array( "pkey"   => $this->rsa->get_ll_publica()
-                        , "sesion" => $this->sesion
-                        );
+        if (isset($request['ll_publica_cliente'])) {
+            $sesion = uniqid();
+            $this->guardar_llave_publica_sesion($sesion, $request['ll_publica_cliente']);
+            $this->sesion = $sesion;
+            $this->ll_cte = $request['ll_publica_cliente'];
+            $retorno = array( "pkey"   => $this->rsa->get_ll_publica()
+                            , "sesion" => $this->sesion
+                            );
+        } else
+            $retorno = array( "pkey"   => null
+                            , "sesion" => null
+                            );
     
         return $retorno;
     }
