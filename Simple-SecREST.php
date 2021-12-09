@@ -136,7 +136,7 @@ abstract class clienteREST extends conexionREST {
                 $respuesta = json_decode($respuesta);
                 // Si se indica refrescar hay que mandar la clave pública actualizada al servidor
                 if ($refrescar)
-                    actualizar_llave_publica_de_cliente($url);
+                    $this->actualizar_llave_publica_de_cliente($url);
             }
             if ($respuesta->autenticado) {
                 $this->estado = true;
@@ -354,7 +354,7 @@ abstract class servidorREST {
             $this->lista_blanca = null;
             $this->sesion = $sesion;
             if (preg_match("#^[[:alnum:]]{13}$#", $sesion)) {
-                $ll_cte = cargar_llave_publica_sesion($sesion);
+                $ll_cte = $this->cargar_llave_publica_sesion($sesion);
                 if ($ll_cte != null) {
                     $this->sesion = $sesion;
                     $this->ll_cte = $ll_cte;

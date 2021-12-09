@@ -79,6 +79,19 @@ class mi_servicio extends SR_REST {
         $retorno['yyyy'] Explicacion salida xxxx
         $retorno['id_error'] Código del error generado si lo hubiera.
         $retorno['error'] Descripción del error generado si lo hubiera.
+
+    ----------------------------------------------------------------------
+    @brief servicio_1's explication and description
+
+    INPUTS:
+    @param $request['xxxx'] xxxx parameter's description
+    @param $request['yyyy'] yyyy parameter's description
+    OUTPUT:
+    array with the following fields:
+        $retorno['xxxx'] xxxx output description
+        $retorno['yyyy'] yyyy output description
+        $retorno['id_error'] error's code if any.
+        $retorno['error'] error's description if any.
     *********************************************************************/
     {
         $retorno = array( 'xxxx' => 0
@@ -110,6 +123,24 @@ class mi_servicio extends SR_REST {
         $retorno['Qprocesos'] Cantidad de procesos de cobro asociados con la identidad. 
         $retorno['id_error'] Código del error generado si lo hubiera.
         $retorno['error'] Descripción del error generado si lo hubiera.
+
+    ----------------------------------------------------------------------
+    @brief Verifies database searching process asociated with debtor.
+
+    EXAMPLE NOTES
+    Every REST methods from the service must follow the following format:
+    Method's name must have M_REST_ as a prefix.
+    Function must return an associative array including id_error and error
+    fields as described on OUTPUTS
+
+    INPUTS:
+    @param $request['id_deudor'] Debtor's ID [optional].
+    @param $request['email_deudor'] Debtor's email [optional].
+    OUTPUTS:
+    Array with the following fields
+        $retorno['Qprocesos'] Number of processes asociated with debtor.
+        $retorno['id_error'] error's code if any.
+        $retorno['error'] error's description if any.
     *********************************************************************/
     {
         $retorno = array( 'Qprocesos' => 0
@@ -161,7 +192,20 @@ class mi_servicio extends SR_REST {
     ENTRADAS:
     @param $login el login del usuario
     SALIDAS:
-    La clave del usuario
+    La huella sha512 de la clave del usuario.
+
+    ----------------------------------------------------------------------
+    @brief This function must deliver the SHA512 of the user's password
+    with $ login to be used during client authentication.
+
+    NOTE FOR THIS EXAMPLE
+    In this example the key hashes are "burned" in the code but ideally
+    they should be stored in a database like postgresql or mariadb.
+
+    INPUTS:
+    @param $ login the user's login
+    OUTPUTS:
+    User password sha512
     *********************************************************************/
     {
         $retorno = null;
@@ -187,9 +231,8 @@ class mi_servicio extends SR_REST {
     deberán ser eliminadas del llavero.
 
     NOTA PARA ÉSTE EJEMPLO
-    En éste ejemplo se almacena en un archivo en formato json con
-    hashtables. Pero es ideal que se almacene en una base de datos como
-    postgresql o mariadb.
+    En éste ejemplo se almacena en un archivo en formato json. Pero es ideal
+    que se almacene en una base de datos como postgresql o mariadb.
 
     ENTRADAS
     @param $sesion un código alfanumérico de longitud 13 con el que se
@@ -197,6 +240,23 @@ class mi_servicio extends SR_REST {
     @param $pkey la llave pública asociada con el código de sesión.
     SALIDA
     bool: true -> almacenada exitosamente
+
+    ----------------------------------------------------------------------
+    @brief Persistently stores (into a file or database) a given session code
+    associated with a public key and its date of creation.
+    Keys older than the duration set in $ this-> duration they must be
+    removed from the keychain.
+
+    NOTE FOR THIS EXAMPLE
+    In this example we store them in a file in json format.
+    But it is ideal that you build this function storing into a database
+    like postgresql or mariadb.
+
+    INPUTS
+    @param $sesion a 13 charcters alphanumeric code  which identifies the session.
+    @param $pkey the public key associated with the session code.
+    OUTPUTS
+    bool: true -> successfully stored false -> error code
     *********************************************************************/
     {
         //----------------------------------------
@@ -252,14 +312,29 @@ class mi_servicio extends SR_REST {
     devolver al cliente.
 
     NOTA PARA ÉSTE EJEMPLO
-    En éste ejemplo se almacena en un archivo en formato json con
-    hashtables. Pero es ideal que se almacene en una base de datos como
-    postgresql o mariadb.
+    En éste ejemplo se almacena en un archivo en formato json. Pero es
+    ideal que se almacene en una base de datos como postgresql o mariadb.
 
     ENTRADAS
     @param $sesion un código alfanumérico que identifica la sesión.
     SALIDA
     string : La llave pública del cliente asociada con el código de sesión.
+
+    ----------------------------------------------------------------------
+    @brief Checks if exists a client's public key stored associated with
+    the session identifier, stored recently than $this->duration.
+
+    This public key is used to encrypt the information wich will be
+    returned to the client.
+
+    NOTE FOR THIS EXAMPLE
+    In this example it is stored in a file in json format. But it is
+    ideally to be stored in a database like postgresql or mariadb.
+
+    INPUTS
+    @param $session an alphanumeric code that identifies the session.
+    OUTPUTS
+    string: The client's public key associated with the session code.
     *********************************************************************/
     {
         //----------------------------------------
@@ -279,8 +354,8 @@ class mi_servicio extends SR_REST {
         // sesion.
         //----------------------------------------
         if (isset($llavero[$sesion]))
-            if ($llavero[$hash][0] > time() + $this->get_duracion())
-                $pubkey = array_pop($llavero[$hash][1]);
+            if ($llavero[$sesion][0] > time() + $this->get_duracion())
+                $pubkey = array_pop($llavero[$sesion][1]);
 
         return $pubkey;
     }
