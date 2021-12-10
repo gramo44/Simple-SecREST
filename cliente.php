@@ -38,14 +38,18 @@ Public License along with Simple-SecREST.  If not, see
 // https://code.tutsplus.com/es/tutorials/how-to-build-a-simple-rest-api-in-php--cms-37000
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
-setlocale(LC_ALL, 'es_ES.UTF-8', 'es_CO', 'es', 'es_ES@euro', 'es_ES');
-date_default_timezone_set('America/Bogota');
+// setlocale(LC_ALL, 'es_ES.UTF-8', 'es_CO', 'es', 'es_ES@euro', 'es_ES');
+// date_default_timezone_set('America/Bogota');
+setlocale(LC_ALL, 'en_GB.UTF-8');
+date_default_timezone_set('Europe/London');
+
 $depurando = true;
 
 require_once("lib/mi_cliente.php");
 require_once("lib/herramientas.php");
 
 // print Mostrar($_SERVER, "_SERVER");
+$_SERVER['SERVER_NAME'] = "192.168.0.16";
 $url = "http://"
      . $_SERVER['SERVER_NAME']
      . preg_split("#/cliente#", $_SERVER['REQUEST_URI'])[0]
@@ -55,7 +59,8 @@ $login = "skinait";
 $clave = hash('sha512', '3uv5nqc!"');
 $fecha = date("Y-m-d H:i:s");
 // $cliente = new mi_cliente($url, $login, $clave, $fecha, __DIR__, 10);
-$cliente = new mi_cliente($url, $login, $clave, $fecha, __DIR__, $depurando);
+// $cliente = new mi_cliente($url, $login, $clave, $fecha, __DIR__, $depurando);
+$cliente = new mi_cliente($url, $login, $clave, $fecha, $_SERVER['DOCUMENT_ROOT'], $depurando);
 
 $parametros['id_deudor'] = "123456789";
 $respuesta = $cliente->solicitar("existen_procesos_asociados", $parametros);

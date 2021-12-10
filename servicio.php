@@ -34,14 +34,17 @@ Public License along with Simple-SecREST.  If not, see
 ***********************************************************/
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
-setlocale(LC_ALL, 'es_ES.UTF-8', 'es_CO', 'es', 'es_ES@euro', 'es_ES');
-date_default_timezone_set('America/Bogota');
+// setlocale(LC_ALL, 'es_ES.UTF-8', 'es_CO', 'es', 'es_ES@euro', 'es_ES');
+// date_default_timezone_set('America/Bogota');
+setlocale(LC_ALL, 'en_GB.UTF-8');
+date_default_timezone_set('Europe/London');
 
 require_once("lib/mi_servicio.php");
 require_once("lib/herramientas.php");
 
-$depurando = false;
-$servidor = new mi_servicio(__DIR__, null, 300, $depurando);
+$depurando = true;
+// $servidor = new mi_servicio(__DIR__, null, 300, $depurando);
+$servidor = new mi_servicio($_SERVER['DOCUMENT_ROOT'], null, 300, $depurando);
 
 $lista_blanca['metodo'] = array( "existen_procesos_asociados"
                                // , "servicio_2"
