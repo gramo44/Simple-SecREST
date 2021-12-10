@@ -33,8 +33,66 @@ details.
 You should have received a copy of the GNU Lesser General
 Public License along with Simple-SecREST.  If not, see
 <https://www.gnu.org/licenses/>.
- ***********************************************************/
+------------------------------------------------------------
+CONTRIBUTORS:
+Dave Bolt
+***********************************************************/
+
+/*------------------------------------------------------------------*/
+if ( ! function_exists( 'array_key_last' ) ) {
+    function array_key_last( $arreglo ) {
+/*********************************************************************
+Polyrelleno para array_key_last() función que fue agregada in PHP 7.3.
+
+Obtiene el nombre del último campo del arreglo sin afectar el puntero
+interno.
+
+ENTRADAS:
+@param $arreglo El arreglo
+SALIDAS:
+@return mixed El nombre del último campo del arreglo si no está vacío;
+    NULL de lo contrario.
+
+----------------------------------------------------------------------
+Polyfill for array_key_last() function added in PHP 7.3.
+
+Get the last key of the given array without affecting
+the internal array pointer.
+
+@param array $arreglo An array
+
+@return mixed The last key of array if arreglo is not empty; NULL
+otherwise.
+*********************************************************************/
+        $retorno = NULL;
+ 
+        if (is_array($arreglo)) {
+            end($arreglo);
+            $retorno = key($arreglo);
+        }
+ 
+        return $retorno;
+    }
+}
+
+/*------------------------------------------------------------------*/
 function Mostrar($dato, $texto = "")
+/*********************************************************************
+@brief Retorna el HTML para desplegar un dato con un letrero.
+ENTRADAS:
+@param $dato El dato a desplegar
+@param $texto El letrero
+SALIDAS:
+ninguna
+
+----------------------------------------------------------------------
+@brief Returns an HTML in order to display a data with a sign
+INPUTS:
+@param $dato The data to be displayed
+@param $texto The sign
+OUTPUT:
+none
+*********************************************************************/
 {
     return "$texto<pre>"
     . htmlentities(stripslashes(var_export($dato, true)))
