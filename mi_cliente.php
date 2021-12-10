@@ -39,6 +39,9 @@ details.
 You should have received a copy of the GNU Lesser General
 Public License along with Simple-SecREST.  If not, see
 <https://www.gnu.org/licenses/>.
+------------------------------------------------------------
+CONTRIBUTORS
+Dave Bolt
 ***********************************************************/
 require_once("lib/Simple-SecREST.php");
 use skinait\REST\clienteREST as CL_REST;
