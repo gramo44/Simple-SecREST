@@ -33,13 +33,34 @@ details.
 You should have received a copy of the GNU Lesser General
 Public License along with Simple-SecREST.  If not, see
 <https://www.gnu.org/licenses/>.
-***********************************************************/
-function Mostrar($dato, $texto = "") {
+ ***********************************************************/
+function Mostrar($dato, $texto = "")
+{
     return "$texto<pre>"
-         . htmlentities(stripslashes(var_export($dato, true)))
-         . "</pre>";
+    . htmlentities(stripslashes(var_export($dato, true)))
+        . "</pre>";
 }
 
+if (!function_exists('array_key_last')) {
+    /**
+     * Polyfill for array_key_last() function added in PHP 7.3.
+     *
+     * Get the last key of the given array without affecting
+     * the internal array pointer.
+     *
+     * @param array $array An array
+     * @return mixed The last key of array if the array is not empty; NULL otherwise.
+     */
+    function array_key_last($array)
+    {
+        $key = null;
+        if (is_array($array)) {
+            end($array);
+            $key = key($array);
+        }
+        return $key;
+    }
+}
 
 /*------------------------------------------------------------------*/
 function periodo2unidades($intervalo, $tipo)
@@ -51,17 +72,19 @@ ENTRADAS:
 @param $tipo Podrá ser years, months, days, hours, minutes, seconds o miliseconds
 SALIDAS:
 Intervalo reformateado
-*********************************************************************/
+ *********************************************************************/
 {
-    switch($tipo) {
+    switch ($tipo) {
         case 'years':
             return $intervalo->format('%Y');
             break;
         case 'months':
             $years = $intervalo->format('%Y');
             $months = 0;
-            if($years)
-                $months += $years*12;
+            if ($years) {
+                $months += $years * 12;
+            }
+
             $months += $intervalo->format('%m');
             return $months;
             break;
@@ -71,58 +94,77 @@ Intervalo reformateado
         case 'hours':
             $days = $intervalo->format('%a');
             $hours = 0;
-            if($days)
+            if ($days) {
                 $hours += 24 * $days;
+            }
+
             $hours += $intervalo->format('%H');
             return $hours;
             break;
         case 'minutes':
             $qdias = $intervalo->format('%a');
-            if(!is_numeric($qdias))
+            if (!is_numeric($qdias)) {
                 $qdias = 0;
+            }
+
             $qhoras = $intervalo->format('%H');
-            if(!is_numeric($qhoras))
+            if (!is_numeric($qhoras)) {
                 $qhoras = 0;
+            }
+
             $qminutos = $intervalo->format('%i');
-            if(!is_numeric($qminutos))
+            if (!is_numeric($qminutos)) {
                 $hours = 0;
+            }
+
             $minutos = 24 * 60 * $qdias + 60 * $qhoras + $qminutos;
             return $minutos;
             break;
         case 'seconds':
             $days = $intervalo->format('%a');
             $seconds = 0;
-            if($days)
+            if ($days) {
                 $seconds += 24 * 60 * 60 * $days;
+            }
+
             $hours = $intervalo->format('%H');
-            if($hours)
+            if ($hours) {
                 $seconds += 60 * 60 * $hours;
+            }
+
             $minutes = $intervalo->format('%i');
-            if($minutes)
+            if ($minutes) {
                 $seconds += 60 * $minutes;
+            }
+
             $seconds += $intervalo->format('%s');
             return $seconds;
             break;
         case 'milliseconds':
             $days = $intervalo->format('%a');
             $seconds = 0;
-            if($days)
+            if ($days) {
                 $seconds += 24 * 60 * 60 * $days;
+            }
+
             $hours = $intervalo->format('%H');
-            if($hours)
+            if ($hours) {
                 $seconds += 60 * 60 * $hours;
+            }
+
             $minutes = $intervalo->format('%i');
-            if($minutes)
+            if ($minutes) {
                 $seconds += 60 * $minutes;
+            }
+
             $seconds += $intervalo->format('%s');
             $milliseconds = $seconds * 1000;
             return $milliseconds;
             break;
         default:
-            return NULL;
+            return null;
     }
 }
-
 
 /*------------------------------------------------------------------*/
 function traza_de_funciones()
@@ -137,21 +179,22 @@ se invocaron para llegar al llamado a ésta función.
     array_shift($trace);
     $trace = array_reverse($trace);
     foreach ($trace as $traza) {
-        $retorno .= "\n".$traza["function"]."(";
+        $retorno .= "\n" . $traza["function"] . "(";
         foreach ($traza['args'] as $valor) {
             if (is_object($valor)) {
-                if (isset($valor->id))
-                    $retorno .= "[[".intval($valor->id)."]], ";
-                else
-                    $retorno .= var_export($valor, true).", ";
-            } else
-                $retorno .= var_export($valor, true).", ";
+                if (isset($valor->id)) {
+                    $retorno .= "[[" . intval($valor->id) . "]], ";
+                } else {
+                    $retorno .= var_export($valor, true) . ", ";
+                }
+
+            } else {
+                $retorno .= var_export($valor, true) . ", ";
+            }
+
         }
-        $retorno.= ")";
+        $retorno .= ")";
     }
 
     return $retorno;
 }
-
-
-?>
